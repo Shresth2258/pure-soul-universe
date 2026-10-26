@@ -28,6 +28,8 @@ Live website: https://shresth2258.github.io/pure-soul-universe/
 Repository: https://github.com/Shresth2258/pure-soul-universe
 The site is published from the main branch root. Keep all pages and the assets
 folder together when updating the repository so image and script paths work.
+The optimized JPEG copies in assets/images/optimized are used for faster page
+loads. Original image files remain in assets/images and should not be removed.
 
 HOW TO UPLOAD TO HOSTINGER
 -------------------------
