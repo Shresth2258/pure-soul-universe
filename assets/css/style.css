@@ -922,7 +922,7 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-signature-grid h3,.psu-journal-grid h3 { margin:8px 0 10px; color:#173d31; font:500 clamp(1.35rem,2vw,1.8rem)/1.2 Georgia,'Times New Roman',serif; }
 .psu-signature-grid p { color:#65706a; line-height:1.65; }
 .psu-signature-grid a,.psu-journal-grid a,.psu-text-link { color:#173d31; font-weight:700; text-decoration:none; border-bottom:1px solid #a886b5; }
-.psu-retreat-band { padding:clamp(70px,9vw,125px) 0; color:#fff; background:linear-gradient(90deg,rgba(14,47,38,.96),rgba(14,47,38,.72)),url('assets/images/Retreat.png') center/cover; }
+.psu-retreat-band { padding:clamp(70px,9vw,125px) 0; color:#fff; background:linear-gradient(90deg,rgba(14,47,38,.96),rgba(14,47,38,.72)),url('assets/images/optimized/Retreat.jpg') center/cover; }
 .psu-retreat-band__inner { display:grid; grid-template-columns:1fr 1fr; gap:clamp(50px,8vw,120px); align-items:center; }
 .psu-retreat-band h2 { margin:10px 0 24px; font:500 clamp(2.4rem,5vw,4.6rem)/1.02 Georgia,'Times New Roman',serif; }
 .psu-retreat-band h2 em { color:#dcc0e7; font-weight:400; }
@@ -987,7 +987,7 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-stay-card h3,.psu-complete-page .psu-stay-card button { color:#fff; }
 .psu-complete-page .psu-stay-card p { color:rgba(255,255,255,.62); }
 .psu-complete-page .psu-signature-grid article { border-radius:5px; overflow:hidden; }
-.psu-complete-page .psu-retreat-band { background:linear-gradient(90deg, rgb(51 79 70 / 83%), rgb(4 35 25 / 38%)), url(../images/Retreat.png) center / cover; }
+.psu-complete-page .psu-retreat-band { background:linear-gradient(90deg, rgb(51 79 70 / 83%), rgb(4 35 25 / 38%)), url(../images/optimized/Retreat.jpg) center / cover; }
 .psu-complete-page .psu-home-gallery { background:#fff; }
 .psu-complete-page .psu-testimonial-home { background:var(--psu-forest); }
 .psu-complete-page .psu-testimonial-home .psu-kicker { color:#d4b978; }
@@ -1601,7 +1601,7 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 
 /* ===== SETTINGS (yahan se edit karo) ===== */
 .healing-section {
-  --bg-image: url('assets/images/Healing in your hand.png');
+  --bg-image: url('assets/images/optimized/Healing in your hand.jpg');
   --bg-position: center;
 
   --text-left: 10%;
