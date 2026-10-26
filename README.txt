@@ -22,6 +22,13 @@ HOW TO OPEN LOCALLY
 Double-click index.html. All internal page links and local images will work.
 Internet is required only for Google Maps, WhatsApp, social media and web fonts.
 
+HOW TO VIEW THE GITHUB PAGES SITE
+---------------------------------
+Live website: https://shresth2258.github.io/pure-soul-universe/
+Repository: https://github.com/Shresth2258/pure-soul-universe
+The site is published from the main branch root. Keep all pages and the assets
+folder together when updating the repository so image and script paths work.
+
 HOW TO UPLOAD TO HOSTINGER
 -------------------------
 1. Open Hostinger hPanel > File Manager.
