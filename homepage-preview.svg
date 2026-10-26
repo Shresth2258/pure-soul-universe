@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="7260" viewBox="0 0 1440 7260">
+  <defs>
+    <linearGradient id="heroShade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#102f27" stop-opacity=".92"/><stop offset=".62" stop-color="#173d31" stop-opacity=".35"/><stop offset="1" stop-color="#173d31" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5c2d75"/><stop offset="1" stop-color="#9b6ab0"/></linearGradient>
+    <clipPath id="heroClip"><rect y="112" width="1440" height="740"/></clipPath>
+    <clipPath id="r1"><rect x="70" y="1850" width="410" height="330" rx="4"/></clipPath>
+    <clipPath id="r2"><rect x="515" y="1850" width="410" height="330" rx="4"/></clipPath>
+    <clipPath id="r3"><rect x="960" y="1850" width="410" height="330" rx="4"/></clipPath>
+    <clipPath id="pool"><rect x="760" y="3210" width="610" height="520" rx="8"/></clipPath>
+    <clipPath id="ther"><rect x="70" y="3210" width="610" height="520" rx="8"/></clipPath>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#173d31" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1440" height="4740" fill="#fcfbf7"/>
+  <rect width="1440" height="34" fill="#173d31"/>
+  <text x="720" y="23" text-anchor="middle" fill="#f3e7c8" font-family="Arial" font-size="12" letter-spacing="2">DIS-EASE • HAPPINESS • WELLNESS  |  OPEN DAILY 5:00 AM–9:00 PM</text>
+  <rect y="34" width="1440" height="78" fill="#fff"/>
+  <text x="70" y="76" fill="#345631" font-family="Georgia" font-size="34">PURE <tspan fill="#6f3987">SOUL</tspan></text>
+  <text x="70" y="96" fill="#75677b" font-family="Arial" font-size="10" letter-spacing="3">UNIVERSE · WELLNESS &amp; RESORT</text>
+  <text x="600" y="82" fill="#33433c" font-family="Arial" font-size="14">ABOUT     PROGRAMS     RETREATS     GALLERY     JOURNAL     CONTACT</text>
+  <rect x="1255" y="55" width="115" height="38" rx="20" fill="#173d31"/><text x="1312" y="80" fill="#fff" text-anchor="middle" font-family="Arial" font-size="13">BOOK NOW</text>
+
+  <image xlink:href="assets/images/resort-exterior-preview.jpg" y="112" width="1440" height="740" preserveAspectRatio="xMidYMid slice" clip-path="url(#heroClip)"/>
+  <rect y="112" width="1440" height="740" fill="url(#heroShade)"/>
+  <text x="85" y="305" fill="#ead5a2" font-family="Arial" font-size="15" letter-spacing="4">WELLNESS RESORT · GHITORNI, NEW DELHI</text>
+  <text x="85" y="385" fill="#fff" font-family="Georgia" font-size="72">Rest deeply.</text>
+  <text x="85" y="465" fill="#e8c7f3" font-family="Georgia" font-size="72" font-style="italic">Return renewed.</text>
+  <text x="85" y="530" fill="#fff" font-family="Arial" font-size="21">Mindful stays, restorative therapies and meaningful retreats—</text>
+  <text x="85" y="563" fill="#fff" font-family="Arial" font-size="21">surrounded by nature, yet close to the city.</text>
+  <rect x="85" y="615" width="210" height="52" rx="26" fill="#fff"/><text x="190" y="648" text-anchor="middle" fill="#173d31" font-family="Arial" font-size="14" font-weight="bold">DISCOVER OUR PURPOSE</text>
+  <rect x="310" y="615" width="205" height="52" rx="26" fill="url(#purple)"/><text x="412" y="648" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14" font-weight="bold">BOOK YOUR EXPERIENCE</text>
+
+  <rect y="852" width="1440" height="520" fill="#fff"/>
+  <text x="70" y="965" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">MORE THAN A STAY</text>
+  <text x="70" y="1035" fill="#173d31" font-family="Georgia" font-size="53">Where nature, rest</text>
+  <text x="70" y="1097" fill="#7b498c" font-family="Georgia" font-style="italic" font-size="53">and wellbeing meet.</text>
+  <line x1="710" y1="930" x2="710" y2="1240" stroke="#d8d3c8"/>
+  <text x="770" y="965" fill="#56635d" font-family="Arial" font-size="20">Pure Soul Universe creates a bridge between ancient spiritual</text>
+  <text x="770" y="1000" fill="#56635d" font-family="Arial" font-size="20">wisdom and modern holistic wellness. Reconnect with your inner</text>
+  <text x="770" y="1035" fill="#56635d" font-family="Arial" font-size="20">being and explore a more balanced way of living.</text>
+  <text x="770" y="1110" fill="#56635d" font-family="Arial" font-size="20">Inspired by our Rishis, sages and spiritual masters, experiences</text>
+  <text x="770" y="1145" fill="#56635d" font-family="Arial" font-size="20">bring meditation, traditional practices, nature and restorative</text>
+  <text x="770" y="1180" fill="#56635d" font-family="Arial" font-size="20">hospitality together.</text>
+  <rect x="770" y="1220" width="155" height="48" rx="24" fill="#173d31"/><text x="847" y="1250" fill="#fff" text-anchor="middle" font-family="Arial" font-size="13">ABOUT PURE SOUL</text>
+
+  <rect y="1372" width="1440" height="390" fill="#f1eee5"/>
+  <text x="720" y="1450" text-anchor="middle" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">CHOOSE YOUR EXPERIENCE</text>
+  <text x="720" y="1515" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="49">Your journey. <tspan fill="#7b498c" font-style="italic">Your pace.</tspan></text>
+  <g font-family="Arial"><rect x="70" y="1580" width="410" height="125" rx="5" fill="#fff"/><text x="95" y="1615" fill="#8a6596" font-size="12" letter-spacing="2">01 — INNER AWARENESS</text><text x="95" y="1653" fill="#173d31" font-family="Georgia" font-size="25">Meditation &amp; sadhana</text><text x="95" y="1684" fill="#69746f" font-size="15">Gentle pathways for stillness and self-discovery.</text><rect x="515" y="1580" width="410" height="125" rx="5" fill="#fff"/><text x="540" y="1615" fill="#8a6596" font-size="12" letter-spacing="2">02 — A DEEPER PAUSE</text><text x="540" y="1653" fill="#173d31" font-family="Georgia" font-size="25">Retreat experiences</text><text x="540" y="1684" fill="#69746f" font-size="15">One-day, weekend and private retreat formats.</text><rect x="960" y="1580" width="410" height="125" rx="5" fill="#fff"/><text x="985" y="1615" fill="#8a6596" font-size="12" letter-spacing="2">03 — REST &amp; RESTORE</text><text x="985" y="1653" fill="#173d31" font-family="Georgia" font-size="25">Mindful stays</text><text x="985" y="1684" fill="#69746f" font-size="15">A calm resort setting for meaningful rest.</text></g>
+
+  <rect y="1762" width="1440" height="1000" fill="#f8f5ed"/>
+  <text x="70" y="1830" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">ROOMS &amp; MINDFUL STAYS</text>
+  <text x="70" y="1890" fill="#173d31" font-family="Georgia" font-size="52">Stay. Rest. <tspan fill="#7b498c" font-style="italic">Wake renewed.</tspan></text>
+  <text x="720" y="1835" fill="#5d6963" font-family="Arial" font-size="18">Quiet accommodation within the Pure Soul estate for unhurried rest,</text>
+  <text x="720" y="1865" fill="#5d6963" font-family="Arial" font-size="18">wellness sessions and retreat experiences.</text>
+  <g filter="url(#shadow)"><rect x="70" y="1925" width="410" height="650" fill="#fff"/><rect x="515" y="1925" width="410" height="650" fill="#fff"/><rect x="960" y="1925" width="410" height="650" fill="#fff"/></g>
+  <image xlink:href="assets/images/resort-front-preview.jpg" x="70" y="1925" width="410" height="330" preserveAspectRatio="xMidYMid slice" clip-path="url(#r1)"/>
+  <image xlink:href="assets/images/garden-villa-preview.jpg" x="515" y="1925" width="410" height="330" preserveAspectRatio="xMidYMid slice" clip-path="url(#r2)"/>
+  <image xlink:href="assets/images/villa-greenery-preview.jpg" x="960" y="1925" width="410" height="330" preserveAspectRatio="xMidYMid slice" clip-path="url(#r3)"/>
+  <g font-family="Arial"><text x="95" y="2300" fill="#8a6596" font-size="12" letter-spacing="2">NATURE-FACING STAY</text><text x="95" y="2345" fill="#173d31" font-family="Georgia" font-size="30">Garden Residence</text><text x="95" y="2385" fill="#66716b" font-size="16">Peaceful accommodation with the estate</text><text x="95" y="2412" fill="#66716b" font-size="16">gardens just outside.</text><text x="95" y="2490" fill="#173d31" font-size="15" font-weight="bold">ENQUIRE ABOUT THIS STAY</text>
+  <text x="540" y="2300" fill="#8a6596" font-size="12" letter-spacing="2">REST &amp; RECONNECT</text><text x="540" y="2345" fill="#173d31" font-family="Georgia" font-size="30">Wellness Villa</text><text x="540" y="2385" fill="#66716b" font-size="16">A restorative base for private stays,</text><text x="540" y="2412" fill="#66716b" font-size="16">programs and guided retreats.</text><text x="540" y="2490" fill="#173d31" font-size="15" font-weight="bold">CHECK AVAILABILITY</text>
+  <text x="985" y="2300" fill="#8a6596" font-size="12" letter-spacing="2">FOR SHARED JOURNEYS</text><text x="985" y="2345" fill="#173d31" font-family="Georgia" font-size="30">Retreat Stay</text><text x="985" y="2385" fill="#66716b" font-size="16">For couples, families and small</text><text x="985" y="2412" fill="#66716b" font-size="16">retreat groups.</text><text x="985" y="2490" fill="#173d31" font-size="15" font-weight="bold">PLAN YOUR VISIT</text></g>
+  <text x="70" y="2645" fill="#747d78" font-family="Arial" font-size="14">Room category, occupancy, inclusions and tariff are confirmed directly by the resort team.</text>
+
+  <rect y="2762" width="1440" height="380" fill="#173d31"/>
+  <text x="720" y="2880" fill="#d9c18a" text-anchor="middle" font-family="Arial" font-size="14" letter-spacing="4">A TIMELESS CONCEPT SHARED BY OUR RISHIS</text>
+  <text x="720" y="2995" fill="#fff" text-anchor="middle" font-family="Georgia" font-size="62">“Healing is in your hands.”</text>
+
+  <rect y="3142" width="1440" height="760" fill="#fff"/>
+  <image xlink:href="assets/images/therapy-room-preview.jpg" x="70" y="3210" width="610" height="520" preserveAspectRatio="xMidYMid slice" clip-path="url(#ther)"/>
+  <image xlink:href="assets/images/indoor-pool-preview.jpg" x="760" y="3210" width="610" height="520" preserveAspectRatio="xMidYMid slice" clip-path="url(#pool)"/>
+  <text x="70" y="3790" fill="#173d31" font-family="Georgia" font-size="32">Wellness &amp; therapy spaces</text><text x="70" y="3825" fill="#66716b" font-family="Arial" font-size="16">Real treatment spaces from the Pure Soul property.</text>
+  <text x="760" y="3790" fill="#173d31" font-family="Georgia" font-size="32">Indoor pool</text><text x="760" y="3825" fill="#66716b" font-family="Arial" font-size="16">Water, movement and restoration.</text>
+
+  <rect y="3902" width="1440" height="440" fill="#f1eee5"/>
+  <text x="720" y="4000" text-anchor="middle" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">EVERYTHING IN ONE PLACE</text>
+  <text x="720" y="4070" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="50">Stay, experience and <tspan fill="#7b498c" font-style="italic">reconnect.</tspan></text>
+  <g font-family="Georgia" font-size="22" fill="#173d31"><rect x="70" y="4140" width="300" height="90" rx="4" fill="#fff"/><text x="220" y="4195" text-anchor="middle">Resort stays</text><rect x="405" y="4140" width="300" height="90" rx="4" fill="#fff"/><text x="555" y="4195" text-anchor="middle">Wellness appointments</text><rect x="740" y="4140" width="300" height="90" rx="4" fill="#fff"/><text x="890" y="4195" text-anchor="middle">Retreats &amp; events</text><rect x="1075" y="4140" width="295" height="90" rx="4" fill="#fff"/><text x="1222" y="4195" text-anchor="middle">Private groups</text></g>
+
+  <rect y="4342" width="1440" height="780" fill="#fff"/>
+  <text x="70" y="4430" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">SIGNATURE EXPERIENCES</text>
+  <text x="70" y="4495" fill="#173d31" font-family="Georgia" font-size="49">Wellness for <tspan fill="#7b498c" font-style="italic">body, mind &amp; soul.</tspan></text>
+  <image xlink:href="assets/images/therapy-bed-preview.jpg" x="70" y="4550" width="410" height="300" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/sri-yantra-preview.jpg" x="515" y="4550" width="410" height="300" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/garden-walk-preview.jpg" x="960" y="4550" width="410" height="300" preserveAspectRatio="xMidYMid slice"/>
+  <text x="70" y="4900" fill="#173d31" font-family="Georgia" font-size="28">Holistic therapies</text><text x="70" y="4934" fill="#67716c" font-family="Arial" font-size="15">Traditional body-centred restorative practices.</text>
+  <text x="515" y="4900" fill="#173d31" font-family="Georgia" font-size="28">Meditation &amp; inner work</text><text x="515" y="4934" fill="#67716c" font-family="Arial" font-size="15">Ancient wisdom, stillness and self-awareness.</text>
+  <text x="960" y="4900" fill="#173d31" font-family="Georgia" font-size="28">Nature &amp; mindful living</text><text x="960" y="4934" fill="#67716c" font-family="Arial" font-size="15">Slow down among trees and quiet gardens.</text>
+
+  <rect y="5122" width="1440" height="600" fill="#173d31"/>
+  <text x="70" y="5210" fill="#d9c18a" font-family="Arial" font-size="14" letter-spacing="4">CHOOSE YOUR PAUSE</text>
+  <text x="70" y="5280" fill="#fff" font-family="Georgia" font-size="52">A retreat that fits</text><text x="70" y="5342" fill="#d9bde5" font-family="Georgia" font-size="52" font-style="italic">your rhythm.</text>
+  <text x="70" y="5400" fill="#dbe5e0" font-family="Arial" font-size="17">Private stays, small-group retreats and curated wellness days.</text>
+  <g font-family="Arial"><line x1="760" y1="5210" x2="1370" y2="5210" stroke="#59756b"/><text x="760" y="5255" fill="#d9bde5" font-size="18">01</text><text x="820" y="5255" fill="#fff" font-family="Georgia" font-size="26">One-day reset</text><line x1="760" y1="5320" x2="1370" y2="5320" stroke="#59756b"/><text x="760" y="5365" fill="#d9bde5" font-size="18">02</text><text x="820" y="5365" fill="#fff" font-family="Georgia" font-size="26">Weekend retreat</text><line x1="760" y1="5430" x2="1370" y2="5430" stroke="#59756b"/><text x="760" y="5475" fill="#d9bde5" font-size="18">03</text><text x="820" y="5475" fill="#fff" font-family="Georgia" font-size="26">Private group experience</text></g>
+
+  <rect y="5722" width="1440" height="850" fill="#f8f5ed"/>
+  <text x="70" y="5810" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">A GLIMPSE OF PURE SOUL</text>
+  <text x="70" y="5875" fill="#173d31" font-family="Georgia" font-size="50">Discover <tspan fill="#7b498c" font-style="italic">Pure Soul.</tspan></text>
+  <image xlink:href="assets/images/resort-exterior-preview.jpg" x="70" y="5930" width="630" height="520" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/indoor-pool-preview.jpg" x="725" y="5930" width="310" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/therapy-room-preview.jpg" x="1060" y="5930" width="310" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/garden-pavilion-preview.jpg" x="725" y="6200" width="310" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <image xlink:href="assets/images/sri-yantra-preview.jpg" x="1060" y="6200" width="310" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <text x="70" y="6495" fill="#173d31" font-family="Arial" font-size="15" font-weight="bold">VIEW FULL GALLERY</text>
+
+  <rect y="6572" width="1440" height="290" fill="#fff"/>
+  <text x="720" y="6650" text-anchor="middle" fill="#8a6596" font-family="Arial" font-size="14" letter-spacing="4">WHAT OUR GUESTS REMEMBER</text>
+  <text x="250" y="6720" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">“A peaceful place to slow down</text><text x="250" y="6748" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">and reconnect with yourself.”</text>
+  <text x="720" y="6720" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">“The green surroundings made</text><text x="720" y="6748" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">the experience restorative.”</text>
+  <text x="1190" y="6720" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">“A meaningful pause from</text><text x="1190" y="6748" text-anchor="middle" fill="#173d31" font-family="Georgia" font-size="20" font-style="italic">everyday life.”</text>
+
+  <rect y="6862" width="1440" height="398" fill="#102f27"/>
+  <text x="70" y="6945" fill="#fff" font-family="Georgia" font-size="33">PURE <tspan fill="#cfaae0">SOUL</tspan></text><text x="70" y="6970" fill="#cfb978" font-family="Arial" font-size="10" letter-spacing="3">UNIVERSE · WELLNESS &amp; RESORT</text>
+  <text x="70" y="7025" fill="#cbd5d0" font-family="Arial" font-size="15">Farm No. 100, Silver Oaks Lane No. 3, opposite Metro Pillar No. 146,</text><text x="70" y="7052" fill="#cbd5d0" font-family="Arial" font-size="15">Ghitorni Village, New Delhi – 110030</text>
+  <text x="600" y="6945" fill="#fff" font-family="Arial" font-size="15" font-weight="bold">PLAN YOUR VISIT</text><text x="600" y="6990" fill="#cbd5d0" font-family="Arial" font-size="15">Call +91 88003 16274</text><text x="600" y="7020" fill="#cbd5d0" font-family="Arial" font-size="15">Chat on WhatsApp · Get directions</text><text x="600" y="7050" fill="#cbd5d0" font-family="Arial" font-size="15">Open daily · 5 AM–9 PM</text>
+  <text x="1090" y="6945" fill="#fff" font-family="Arial" font-size="15" font-weight="bold">DISCOVER</text><text x="1090" y="6990" fill="#cbd5d0" font-family="Arial" font-size="15">Our Story · Wellness Programs</text><text x="1090" y="7020" fill="#cbd5d0" font-family="Arial" font-size="15">Retreats · Gallery · Journal · FAQs</text>
+  <line x1="70" y1="7140" x2="1370" y2="7140" stroke="#48645a"/><text x="70" y="7190" fill="#aebeb7" font-family="Arial" font-size="13">© 2026 Pure Soul Universe</text><text x="1370" y="7190" text-anchor="end" fill="#aebeb7" font-family="Arial" font-size="13">PRIVACY POLICY · TERMS &amp; CONDITIONS</text>
+</svg>
