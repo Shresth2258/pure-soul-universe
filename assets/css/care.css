@@ -1,0 +1,203 @@
+/* PSU Care Guide — site ke colors/fonts ke hisaab se. style.css ke BAAD link karo */
+.cg{--f:#163f35;--v:#8b5ca2;--g:#c9a15a;--c:#f8f4e9;--t:#5b6a62;font-family:"Manrope",Arial,sans-serif;color:var(--f)}
+.cg *{box-sizing:border-box}
+.cg-sec{position:relative;overflow:hidden;padding:clamp(3.5rem,7vw,6rem) 0;background:radial-gradient(circle at 90% 5%,rgba(241,225,230,.6),transparent 22rem),radial-gradient(circle at 5% 90%,rgba(226,235,214,.5),transparent 20rem),var(--c)}
+.cg-wrap{width:min(calc(100% - 48px),1180px);margin-inline:auto}
+.cg-kicker{display:flex;align-items:center;gap:.9rem;margin:0 0 .8rem;color:var(--v);font-size:.74rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.cg-kicker:before{content:"";width:44px;height:1px;background:var(--g)}
+.cg-title{margin:0;font:400 clamp(2.2rem,4.4vw,4rem)/1.05 "Newsreader",Georgia,serif;letter-spacing:-.02em;color:var(--f)}
+.cg-title em{color:var(--v);font-style:italic}
+.cg-lead{max-width:640px;margin:1rem 0 0;color:var(--t);line-height:1.75}
+.cg-head{display:flex;justify-content:space-between;align-items:end;gap:2rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.cg-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.1rem}
+.cg-card{position:relative;display:flex;flex-direction:column;min-height:250px;padding:1.7rem 1.5rem 1.4rem;text-decoration:none;color:var(--f);background:rgba(255,255,255,.55);border:1px solid #d9d2bd;border-radius:22px;transition:translate .4s,box-shadow .4s,border-color .4s}
+.cg-card:after{content:"";position:absolute;right:-28px;bottom:-28px;width:120px;height:100px;border-radius:60% 40% 30% 70%;background:#dbe3cc;opacity:.6;z-index:0}
+.cg-card:nth-child(even):after{background:#e6d9ee}
+.cg-card>*{position:relative;z-index:1}
+.cg-card:hover{translate:0 -8px;border-color:#cdb4d6;box-shadow:0 22px 44px rgba(22,63,53,.14)}
+.cg-ico{display:grid;place-items:center;width:56px;height:56px;margin-bottom:1rem;border-radius:50%;background:#e3ecdd;color:var(--f)}
+.cg-card:nth-child(even) .cg-ico{background:#eadfec;color:#6e3d68}
+.cg-ico svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.cg-card h3{margin:0 0 .4rem;font:400 1.55rem/1.15 "Newsreader",Georgia,serif}
+.cg-card p{margin:0;color:var(--t);font-size:.86rem;line-height:1.6}
+.cg-card small{display:block;margin-top:.7rem;color:var(--g);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.cg-more{margin-top:auto;padding-top:1rem;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--v)}
+.cg-btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.5rem;border-radius:999px;background:var(--f);color:#fff;text-decoration:none;font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;transition:background .3s,translate .3s}
+.cg-btn:hover{background:var(--v);translate:0 -2px}
+.cg-btn--gold{background:var(--g);color:#14372b}
+.cg-note{margin-top:2rem;color:#6b7a70;font-size:.76rem;line-height:1.7}
+/* inner pages */
+.cg-hero{padding:clamp(8.5rem,14vw,11rem) 0 3.5rem;color:#fff}
+.cg-hero .cg-title{color:#fff}.cg-hero .cg-title em{color:#e0c2ee}.cg-hero .cg-lead{color:rgba(255,255,255,.82)}.cg-hero .cg-kicker{color:#efd49c}
+.cg-crumb{margin:0 0 1.2rem;font-size:.78rem;color:rgba(255,255,255,.75)}.cg-crumb a{color:#fff;text-decoration:underline}
+.cg-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.6rem}
+.cg-chip{padding:.55rem 1.1rem;border:1px solid rgba(255,255,255,.5);border-radius:999px;color:#fff;text-decoration:none;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;transition:.3s}
+.cg-chip:hover{background:#fff;color:var(--f)}
+.cg-group{scroll-margin-top:110px;margin-bottom:3.2rem}
+.cg-gh{display:flex;align-items:center;gap:1rem;margin-bottom:1.2rem;padding-bottom:1rem;border-bottom:1px solid #ddd5c4}
+.cg-gh .cg-ico{margin:0}.cg-gh h2{margin:0;font:400 2rem/1.1 "Newsreader",Georgia,serif}.cg-gh p{margin:.2rem 0 0;color:var(--t);font-size:.88rem}
+.cg-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.cg-item{display:block;padding:1.4rem;text-decoration:none;color:var(--f);background:#fff;border:1px solid #e1dac6;border-radius:16px;transition:.35s}
+.cg-item:hover{translate:0 -6px;border-color:#cdb4d6;box-shadow:0 18px 36px rgba(22,63,53,.12)}
+.cg-item h3{margin:0 0 .4rem;font:400 1.35rem/1.2 "Newsreader",Georgia,serif}.cg-item p{margin:0 0 .8rem;color:var(--t);font-size:.84rem;line-height:1.6}
+.cg-item span{color:var(--v);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.cg-block{margin-bottom:2.4rem}.cg-block>h2{margin:0 0 1rem;font:400 clamp(1.7rem,2.6vw,2.3rem)/1.1 "Newsreader",Georgia,serif}.cg-block>h2 em{color:var(--v)}
+.cg-sym{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:0;padding:0;list-style:none}
+.cg-sym li{padding:.95rem 1.1rem .95rem 2.6rem;position:relative;background:#fff;border:1px solid #e1dac6;border-radius:12px;font-size:.92rem}
+.cg-sym li:before{content:"";position:absolute;left:1.05rem;top:1.25rem;width:9px;height:9px;border-radius:50% 0 50% 50%;background:var(--v)}
+.cg-th{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.cg-thc{padding:1.5rem;background:linear-gradient(135deg,#fffaf4,#f3f1e2);border:1px solid #e1dac6;border-radius:18px}
+.cg-thc b{display:grid;place-items:center;width:38px;height:38px;margin-bottom:.8rem;border-radius:50%;background:#e3ecdd;font:400 1.1rem "Newsreader",serif;font-style:italic}
+.cg-thc h3{margin:0 0 .4rem;font:400 1.4rem/1.15 "Newsreader",Georgia,serif}.cg-thc p{margin:0;color:var(--t);font-size:.86rem;line-height:1.65}
+.cg-pre{margin:0;padding:1.6rem;list-style:none;color:#fff;background:var(--f);border-radius:22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem 2rem}
+.cg-pre li{position:relative;padding-left:1.8rem;font-size:.92rem;line-height:1.6}
+.cg-pre li:before{content:"✓";position:absolute;left:0;color:var(--g);font-weight:700}
+.cg-warn{padding:1.3rem 1.5rem;background:#f4ebf5;border:1px solid rgba(139,92,162,.25);border-radius:16px;color:#4d3a58;font-size:.88rem;line-height:1.7}
+.cg-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.4rem}
+.cg-related{display:flex;flex-wrap:wrap;gap:.5rem}.cg-related a{padding:.55rem 1rem;border:1px solid #cfc7b2;border-radius:999px;color:var(--f);text-decoration:none;font-size:.8rem}.cg-related a:hover{background:var(--f);color:#fff}
+@media(max-width:1000px){.cg-grid{grid-template-columns:repeat(2,1fr)}.cg-list,.cg-th{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.cg-grid,.cg-list,.cg-th,.cg-sym,.cg-pre{grid-template-columns:1fr}.cg-wrap{width:calc(100% - 28px)}}
+
+/* ---- images ---- */
+.cg-card{min-height:340px}
+.cg-pic{display:block;position:relative;height:150px;margin:-1.7rem -1.5rem 0;overflow:hidden;border-radius:22px 22px 50% 50%/22px 22px 22% 22%}
+.cg-pic img{width:100%;height:100%;object-fit:cover;display:block;transition:scale 1s}
+.cg-card:hover .cg-pic img{scale:1.08}
+.cg-pic+.cg-ico{margin:-30px 0 .9rem;border:4px solid #fbf8ef;z-index:2}
+.cg-ban{height:200px;margin-bottom:1.2rem;border-radius:22px;background:center/cover;box-shadow:0 14px 34px rgba(22,63,53,.12)}
+.cg-hero{background:linear-gradient(90deg,rgba(6,38,28,.93),rgba(6,38,28,.6)),var(--im,none) center/cover,#06261c}
+.cg-two{display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;align-items:center;margin-bottom:2.4rem}
+.cg-two .cg-block{margin:0}.cg-sym--1{grid-template-columns:1fr}
+.cg-ring{position:relative;padding:12px}
+.cg-ring:before{content:"";position:absolute;inset:0;border:1.5px solid #d9bc7a;border-radius:46% 54% 48% 52%/38% 44% 56% 62%}
+.cg-ring img{width:100%;aspect-ratio:1/1.05;object-fit:cover;display:block;border-radius:46% 54% 48% 52%/38% 44% 56% 62%;box-shadow:0 16px 36px rgba(22,63,53,.18)}
+@media(max-width:1000px){.cg-two{grid-template-columns:1fr}.cg-ring{max-width:380px}}
+
+.cg-thc img{width:100%;height:130px;object-fit:cover;border-radius:12px;margin-bottom:.8rem;display:block}
+.cg-pillar{scroll-margin-top:110px;padding:1.6rem;background:#fff;border:1px solid #e1dac6;border-radius:18px;transition:.35s}
+.cg-pillar:hover{translate:0 -6px;border-color:#cdb4d6;box-shadow:0 18px 36px rgba(22,63,53,.12)}
+.cg-pillar h3{margin:0 0 .4rem;font:400 1.45rem/1.15 "Newsreader",Georgia,serif}.cg-pillar p{margin:0;color:var(--t);font-size:.88rem;line-height:1.7}
+.cg-stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.cg-stage{display:block;padding:1.5rem;text-decoration:none;color:var(--f);background:linear-gradient(180deg,#f1f0d8,#f9f6ea);border:1px solid #c3cc98;border-radius:44px 44px 16px 16px/34px 34px 16px 16px;transition:.35s}
+.cg-stage:hover{translate:0 -6px;box-shadow:0 18px 36px rgba(22,63,53,.12)}
+.cg-stage b{display:inline-block;margin-bottom:.7rem;padding:.3rem .9rem;border-radius:999px;background:var(--f);color:#fff;font:400 1.05rem "Newsreader",Georgia,serif}
+.cg-stage h3{margin:0 0 .4rem;font:400 1.4rem/1.15 "Newsreader",Georgia,serif}.cg-stage p{margin:0 0 .8rem;color:var(--t);font-size:.84rem;line-height:1.6}
+.cg-stage span{color:var(--v);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.cg-band{padding:clamp(2.5rem,5vw,4rem);border-radius:26px;background:radial-gradient(circle at 90% 0,rgba(139,92,162,.35),transparent 20rem),#163f35;color:#fff;text-align:center}
+.cg-band h2{margin:0 0 1.2rem;font:400 clamp(2rem,4vw,3.2rem)/1.1 "Newsreader",Georgia,serif}.cg-band h2 em{color:#e0c2ee}.cg-band .cg-cta{justify-content:center}
+.cg-sec--tight{padding-top:0}
+@media(max-width:1000px){.cg-stages{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.cg-stages{grid-template-columns:1fr}}
+/* Why PSU (home) */
+.wy{position:relative;overflow:hidden;padding:clamp(3.5rem,7vw,6rem) 0;background:#fbf8ef}
+.wy-wrap{width:min(calc(100% - 48px),1200px);margin-inline:auto;display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.wy-ring{position:relative;display:block;padding:14px}
+.wy-ring:before{content:"";position:absolute;inset:0;border:1.5px solid #d9bc7a;border-radius:46% 54% 48% 52%/38% 44% 56% 62%}
+.wy-ring img{width:100%;aspect-ratio:1/1.08;object-fit:cover;display:block;border-radius:46% 54% 48% 52%/38% 44% 56% 62%;box-shadow:0 18px 40px rgba(22,63,53,.18)}
+.wy-badge{position:absolute;left:-8px;bottom:34px;padding:.7rem 1.1rem;background:#163f35;color:#fff;border-radius:999px;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.wy-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem;margin:1.6rem 0 1.8rem}
+.wy-item{display:flex;gap:.9rem;align-items:flex-start;padding:1rem;background:#fff;border:1px solid #e1dac6;border-radius:16px;text-decoration:none;color:#163f35;transition:.35s}
+.wy-item:hover{translate:0 -5px;border-color:#cdb4d6;box-shadow:0 16px 32px rgba(22,63,53,.12)}
+.wy-item .cg-ico{flex:none;width:44px;height:44px;margin:0}.wy-item .cg-ico svg{width:22px;height:22px}
+.wy-item h3{margin:0 0 .2rem;font:400 1.15rem/1.2 "Newsreader",Georgia,serif}.wy-item p{margin:0;color:#5b6a62;font-size:.78rem;line-height:1.55}
+@media(max-width:900px){.wy-wrap{grid-template-columns:1fr}.wy-ring{max-width:380px;margin:auto}}
+@media(max-width:560px){.wy-list{grid-template-columns:1fr}.wy-wrap{width:calc(100% - 28px)}}
+
+/* site-style hero + banded sections */
+.cg .psu-hero-media img{width:100%;height:100%;object-fit:cover;object-position:center}
+.cg .psu-hero .cg-crumb{margin:0 0 1rem;font-size:.8rem;color:rgba(255,255,255,.85)}.cg .psu-hero .cg-crumb a{color:#fff;text-decoration:underline}
+.cg .psu-hero .cg-chips{margin-top:1.8rem}
+.psu-complete-page .psu-hero .psu-title.cg-t-sm{font-size:clamp(2.2rem,4.8vw,4.4rem);line-height:1.02}
+.cg-sec--cream{background:#f4efe3}
+.cg-sec--dark{background:radial-gradient(circle at 90% 0,rgba(139,92,162,.3),transparent 24rem),#0d2b24;color:#fff}
+.cg-sec--dark .cg-block>h2{color:#fff}.cg-sec--dark .cg-block>h2 em{color:#e0c2ee}.cg-sec--dark .cg-kicker{color:#efd49c}
+.cg-sec--dark .cg-pre{background:transparent;padding:0;gap:1rem}
+.cg-sec--dark .cg-pre li{padding:1rem 1rem 1rem 2.7rem;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:14px}
+.cg-sec--dark .cg-pre li:before{left:1rem;top:1rem}
+.cg-thc{position:relative}.cg-thc img+b{position:absolute;top:1.8rem;left:1.8rem;background:#fff}
+.cg-th .cg-thc img{height:170px}
+.cg-block>.cg-kicker{margin-bottom:.5rem}
+
+/* Why PSU (home) refinements */
+.wy{position:relative}
+.wy-list{gap:1rem}
+.wy-item{position:relative;align-items:center;padding:1.05rem 2.4rem 1.05rem 1.05rem;min-height:104px;box-shadow:0 2px 10px rgba(22,63,53,.04)}
+.wy-item:nth-child(even) .cg-ico{background:#eadfec;color:#6e3d68}
+.wy-item h3{font-size:1.2rem}
+.wy-item p{font-size:.82rem}
+.wy-arr{position:absolute;right:1rem;top:50%;translate:-6px -50%;opacity:0;color:var(--v);transition:.3s}
+.wy-item:hover .wy-arr{opacity:1;translate:0 -50%}
+.wy-item:hover .cg-ico{background:var(--f);color:#fff}
+.wy-badge--top{left:auto;right:6px;bottom:auto;top:34px;background:#fff;color:#163f35;border:1px solid #d9bc7a}
+.wy-trust{list-style:none;display:flex;flex-wrap:wrap;gap:0;margin:0 0 1.6rem;padding:1rem 0;border-block:1px solid #e1dac6}
+.wy-trust li{flex:1 1 130px;padding:0 1rem;border-left:1px solid #e1dac6;font-size:.76rem;color:#5b6a62;line-height:1.4}
+.wy-trust li:first-child{padding-left:0;border-left:0}
+.wy-trust strong{display:block;font:400 1.35rem/1.2 "Newsreader",Georgia,serif;color:#163f35}
+.wy-cta{display:flex;flex-wrap:wrap;align-items:center;gap:1.4rem}
+.cg a.cg-btn,.cg a.cg-btn:visited{color:#fff}
+.cg a.cg-btn--gold{color:#14372b}
+.wy-link{color:#163f35;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1.5px solid #c9a15a;padding-bottom:3px;transition:.3s}
+.wy-link:hover{color:#8b5ca2;border-color:#8b5ca2}
+@media(max-width:560px){.wy-trust li{flex-basis:100%;padding:.5rem 0;border-left:0}.wy-badge--top{display:none}.wy-item{min-height:0}}
+/* Why PSU image: rectangular instead of round blob */
+.wy-ring{padding:0}
+.wy-ring:before{inset:-12px -12px 12px 12px;border-radius:22px}
+.wy-ring img{border-radius:20px;aspect-ratio:4/5}
+.wy-badge{left:-12px}
+.wy-badge--top{right:-6px}
+@media(max-width:900px){.wy-ring{max-width:420px}}
+
+/* Clickable therapy cards (concern page) */
+a.cg-thc--link{display:block;text-decoration:none;color:inherit;transition:.35s}
+a.cg-thc--link:hover{translate:0 -6px;border-color:#cdb4d6;box-shadow:0 18px 36px rgba(22,63,53,.14)}
+.cg-thc__more{display:inline-block;margin-top:1rem;color:#8b5ca2;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+a.cg-thc--link:hover .cg-thc__more{color:#163f35}
+
+/* Therapy detail page */
+.cg-chip--static{cursor:default}.cg-chip--static:hover{background:transparent;color:#fff}
+.th-pic img{width:100%;aspect-ratio:4/3.4;object-fit:cover;border-radius:20px;display:block;box-shadow:0 16px 36px rgba(22,63,53,.18)}
+.th-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.th-facts>div{padding:1.2rem 1.4rem;background:#fff;border:1px solid #e1dac6;border-radius:16px}
+.th-facts small{display:block;margin-bottom:.35rem;color:#8b5ca2;font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.th-facts b{font:400 1.2rem/1.3 "Newsreader",Georgia,serif;color:#163f35}
+.th-two{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start}
+.th-two .cg-pre{grid-template-columns:1fr}
+.th-faq{margin-bottom:.7rem;background:#fff;border:1px solid #e1dac6;border-radius:14px;overflow:hidden}
+.th-faq summary{cursor:pointer;padding:1rem 1.2rem;font:400 1.15rem/1.3 "Newsreader",Georgia,serif;color:#163f35;list-style:none;position:relative;padding-right:3rem}
+.th-faq summary::-webkit-details-marker{display:none}
+.th-faq summary:after{content:"+";position:absolute;right:1.2rem;top:50%;translate:0 -50%;color:#8b5ca2;font-size:1.4rem}
+.th-faq[open] summary:after{content:"–"}
+.th-faq p{margin:0;padding:0 1.2rem 1.1rem;color:#5b6a62;line-height:1.7;font-size:.9rem}
+@media(max-width:900px){.th-facts,.th-two{grid-template-columns:1fr}}
+
+/* Why PSU: reason cards + detail */
+.rs-grid{gap:1.25rem}
+.rs-card{position:relative;display:block;padding:2rem 1.8rem 1.7rem;text-decoration:none;color:inherit;overflow:hidden;background:linear-gradient(160deg,#fff 55%,#f6f1e4);box-shadow:0 2px 12px rgba(22,63,53,.05)}
+.rs-card:before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,#c9a15a,#8b5ca2);transform:scaleX(0);transform-origin:left;transition:transform .45s}
+.rs-card:hover:before{transform:scaleX(1)}
+.rs-card .cg-ico{width:64px;height:64px;margin-bottom:1.2rem;background:linear-gradient(145deg,#e3ecdd,#cfe0c9);box-shadow:0 8px 18px rgba(22,63,53,.12);transition:.4s}
+.rs-card:nth-child(even) .cg-ico{background:linear-gradient(145deg,#eadfec,#dcc8e2);color:#6e3d68}
+.rs-card:hover .cg-ico{background:var(--f);color:#fff;rotate:-6deg;scale:1.06}
+.rs-no{position:absolute;right:1.3rem;top:.6rem;font:italic 400 3.6rem/1 "Newsreader",Georgia,serif;color:rgba(201,161,90,.28)}
+.rs-card p{min-height:4.4em}
+.rs-more{display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;color:#8b5ca2;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.rs-more i{font-style:normal;transition:translate .3s}.rs-card:hover .rs-more i{translate:6px 0}.rs-card:hover .rs-more{color:var(--f)}
+.rs-pts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.rs-pt{display:flex;gap:1rem;padding:1.4rem;background:#fff;border:1px solid #e1dac6;border-radius:18px}
+.rs-pt>b{flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#e3ecdd;font:italic 400 1.2rem "Newsreader",serif;color:var(--f)}
+.rs-pt h3{margin:0 0 .3rem;font:400 1.35rem/1.2 "Newsreader",Georgia,serif}.rs-pt p{margin:0;color:var(--t);font-size:.9rem;line-height:1.65}
+.rs-steps{grid-template-columns:repeat(4,minmax(0,1fr))}
+.rs-ths{display:grid;gap:.8rem}
+.rs-th{display:flex;align-items:center;gap:1rem;padding:.7rem 1rem .7rem .7rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;color:#fff;text-decoration:none;transition:.3s}
+.rs-th:hover{background:rgba(255,255,255,.16);translate:4px 0}
+.rs-th img{width:64px;height:64px;object-fit:cover;border-radius:12px;flex:none}
+.rs-th span{flex:1}.rs-th small{display:block;color:#efd49c;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase}.rs-th b{font:400 1.2rem "Newsreader",Georgia,serif}
+.rs-th i{font-style:normal;color:#efd49c}
+.rs-others{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.9rem}
+.rs-oth{display:flex;align-items:center;gap:.9rem;padding:1rem;background:#fff;border:1px solid #e1dac6;border-radius:16px;text-decoration:none;color:var(--f);transition:.3s}
+.rs-oth:hover{translate:0 -4px;border-color:#cdb4d6;box-shadow:0 14px 28px rgba(22,63,53,.12)}
+.rs-oth .cg-ico{width:44px;height:44px;margin:0;flex:none}.rs-oth .cg-ico svg{width:22px;height:22px}
+.rs-oth b{flex:1;font:400 1.1rem/1.2 "Newsreader",Georgia,serif}.rs-oth i{font-style:normal;color:#8b5ca2}
+@media(max-width:1000px){.rs-steps{grid-template-columns:repeat(2,1fr)}.rs-others{grid-template-columns:1fr}}
+@media(max-width:700px){.rs-pts,.rs-steps{grid-template-columns:1fr}.rs-card p{min-height:0}}
+.cg-card small{color:#8a6a2f}
