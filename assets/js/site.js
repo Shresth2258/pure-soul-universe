@@ -1594,7 +1594,7 @@
 /* ===== Har page par header + footer mein logo laga do ===== */
 document.addEventListener('DOMContentLoaded', function () {
   var logoHTML =
-    '<img class="psu-brand__logo" src="assets/images/Psu logo.jpeg" alt="Pure Soul Universe">';
+    '<img class="psu-brand__logo" src="assets/images/optimized/Psu logo.jpg" alt="Pure Soul Universe">';
 
   document.querySelectorAll('.psu-brand').forEach(function (brand) {
     // agar logo pehle se laga hai to dobara mat lagao
