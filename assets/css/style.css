@@ -261,7 +261,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   body.admin-bar .psu-global-header { top: 46px; }
 }
 
-/* Elementor full-width safety */
 .psu-complete-page { width: 100%; margin: 0; padding: 0; overflow: visible; }
 .psu-complete-page > .psu-global-header,
 .psu-complete-page > .psu-global-footer {
@@ -273,11 +272,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 .psu-complete-page .psu-global-header { position: relative; top: auto; }
 .psu-complete-page + p:empty { display: none; }
 
-
-/* ==========================================================
-   PURE SOUL — CLIENT REFERENCE THEME
-   Cream botanical editorial design · Elementor-safe
-   ========================================================== */
 :root {
   --psu-forest: #244f40;
   --psu-deep: #173d31;
@@ -312,7 +306,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   background-size: 18px 18px;
 }
 
-/* Header */
 .psu-complete-page .psu-global-header {
   position: relative;
   z-index: 999;
@@ -373,7 +366,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   border-color: var(--psu-line);
 }
 
-/* Split editorial hero */
 .psu-complete-page .psu-hero {
   min-height: 690px;
   align-items: center;
@@ -419,7 +411,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 .psu-complete-page .psu-hero--compact { min-height: 520px; }
 .psu-complete-page .psu-hero--compact .psu-hero__inner { padding-top: 7rem; padding-bottom: 7rem; }
 
-/* Typography and buttons */
 .psu-complete-page .psu-kicker {
   color: #9b7d49;
   letter-spacing: .16em;
@@ -451,7 +442,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   background: rgba(255,255,255,.35);
 }
 
-/* Sections and botanical details */
 .psu-complete-page .psu-section {
   position: relative;
   padding: 7.4rem 0;
@@ -490,7 +480,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   border-left-color: rgba(36,79,64,.16);
 }
 
-/* Cards inspired by the reference presentation */
 .psu-complete-page .psu-grid { gap: 1.45rem; }
 .psu-complete-page .psu-card {
   min-height: 305px;
@@ -514,7 +503,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   background: #f4ebf5;
 }
 
-/* Organic photography */
 .psu-complete-page .psu-image img {
   min-height: 500px;
   border: 10px solid rgba(255,255,255,.75);
@@ -541,7 +529,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   border-radius: 50%;
 }
 
-/* Quote feature */
 .psu-complete-page .psu-section--dark {
   margin: 1.5rem 0;
   color: #fff;
@@ -559,7 +546,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 }
 .psu-complete-page .psu-quote blockquote { font-size: clamp(3rem, 6vw, 6rem); }
 
-/* Pillars, timeline and gallery */
 .psu-complete-page .psu-pillars {
   gap: .8rem;
   border: 0;
@@ -589,7 +575,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 .psu-complete-page .psu-gallery figure:nth-child(2n) { border-radius: 70px 24px 24px 24px; }
 .psu-complete-page .psu-gallery figcaption { border-radius: 0 0 20px 20px; }
 
-/* Journal, testimonial and empty states */
 .psu-complete-page .psu-article {
   border: 1px solid rgba(36,79,64,.10);
   border-radius: 28px;
@@ -606,7 +591,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   box-shadow: var(--psu-shadow);
 }
 
-/* Contact and forms */
 .psu-complete-page .psu-contact-row { border-color: rgba(36,79,64,.14); }
 .psu-complete-page .psu-form {
   border-radius: 34px 34px 90px 34px;
@@ -618,7 +602,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 .psu-complete-page .psu-field select,
 .psu-complete-page .psu-field textarea { border-color: rgba(255,255,255,.36); }
 
-/* FAQ and policies */
 .psu-complete-page .psu-faq details {
   margin-bottom: .7rem;
   padding: 0 1.45rem;
@@ -635,7 +618,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 }
 .psu-complete-page .psu-policy h2 { color: var(--psu-forest); }
 
-/* CTA */
 .psu-complete-page .psu-cta {
   position: relative;
   padding: 6.2rem 0;
@@ -656,7 +638,6 @@ body.admin-bar .psu-global-header { top: 32px; }
 .psu-complete-page .psu-cta h2 { color: var(--psu-forest); }
 .psu-complete-page .psu-cta h2 em { color: var(--psu-violet); }
 
-/* Light editorial footer */
 .psu-complete-page .psu-global-footer {
   color: #52675f;
   border-top: 1px solid rgba(36,79,64,.11);
@@ -713,8 +694,6 @@ body.admin-bar .psu-global-header { top: 32px; }
   .psu-complete-page .psu-policy { padding: 1.5rem; border-radius: 24px; }
 }
 
-
-/* PURE SOUL RESORT — booking, real photography and conversion features */
 .psu-complete-page .psu-header-inner > .psu-btn { border: 0; }
 .psu-complete-page .psu-mobile-menu button { width: 100%; margin-top: .9rem; }
 .psu-complete-page .psu-social-row { display: flex; flex-wrap: wrap; gap: .7rem 1rem; margin-top: 1.25rem; color: var(--psu-violet); font-size: .76rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
@@ -780,7 +759,6 @@ body.psu-booking-open { overflow: hidden !important; }
   .psu-complete-page .psu-floating-book, .psu-complete-page .psu-floating-actions .psu-whatsapp { height: 46px; padding: 0 .85rem; font-size: .64rem; }
 }
 
-/* Standalone HTML website enhancements */
 html { scroll-behavior: smooth; }
 body { margin: 0; }
 .psu-skip-link { position: fixed; top: .7rem; left: .7rem; z-index: 200000; padding: .75rem 1rem; color: #fff; background: #173d31; border-radius: 8px; transform: translateY(-150%); transition: transform .2s ease; }
@@ -794,9 +772,6 @@ body { margin: 0; }
 .psu-kicker, .psu-card__number, .psu-card__note, .psu-article__meta, .psu-contact-label, .psu-footer-heading, .psu-footer-bottom, .psu-field label, .psu-book-grid label, .psu-book-note { font-size: .75rem; }
 .psu-brand__sub { font-size: .75rem; }
 
-/* ==========================================================
-   PURE SOUL RESORT — PREMIUM FULL-PHOTO REDESIGN
-   ========================================================== */
 :root {
   --psu-forest: #163f35;
   --psu-deep: #0f3028;
@@ -816,7 +791,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-page { width: 100%; max-width: none; margin: 0; overflow: visible; }
 .psu-complete-page .psu-container { width: min(calc(100% - 56px), 1240px); }
 
-/* Refined header */
 .psu-complete-page .psu-global-header { position: sticky; top: 0; z-index: 9999; border: 0; background: rgba(255,253,248,.96); box-shadow: 0 8px 32px rgba(15,48,40,.08); backdrop-filter: blur(14px); }
 .psu-complete-page .psu-announcement { padding: .48rem 1rem; color: rgba(255,255,255,.9); background: var(--psu-deep); font-size: .68rem; letter-spacing: .16em; }
 .psu-complete-page .psu-header-inner { min-height: 82px; border: 0; }
@@ -827,16 +801,11 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-header-inner > .psu-btn { min-height: 46px; padding: .8rem 1.35rem; border-radius: 999px; color: #fff !important; background: var(--psu-forest); }
 .psu-complete-page .psu-mobile-menu { background: var(--psu-paper); box-shadow: 0 20px 30px rgba(15,48,40,.08); }
 
-/* Full-photo hero: the image is a real IMG element, not a fragile CSS background */
 .psu-complete-page .psu-hero { position: relative; min-height: min(720px, calc(100svh - 125px)); display: flex; align-items: center; color: #fff; background: var(--psu-deep); overflow: hidden; isolation: isolate; }
 .psu-complete-page .psu-hero--compact { min-height: 540px; }
 .psu-complete-page .psu-hero::before { display: none; }
 .psu-complete-page .psu-hero::after { content: ""; position: absolute; inset: 0; z-index: -1; width: auto; height: auto; border: 0; border-radius: 0; background: linear-gradient(90deg, rgba(8,35,28,.9) 0%, rgba(12,44,35,.72) 42%, rgba(12,44,35,.2) 76%, rgba(12,44,35,.08) 100%), linear-gradient(0deg, rgba(8,29,24,.4), transparent 55%); box-shadow: none; transform: none; }
 
-/* .psu-hero-media { position: absolute; inset: 0; z-index: -2; overflow: hidden; }
-.psu-hero-media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--psu-position, center); transform: scale(1.01); } */
-
-/* Hero background video */
 .psu-hero-media {
     position: absolute;
     inset: 0;
@@ -868,7 +837,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-hero .psu-btn--light { color: var(--psu-deep) !important; background: #fff; }
 .psu-complete-page .psu-hero .psu-btn--dark { color: #fff !important; border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.12); backdrop-filter: blur(10px); }
 
-/* Cleaner editorial sections */
 .psu-complete-page .psu-section { padding: clamp(5rem, 8vw, 8rem) 0; overflow: hidden; }
 .psu-complete-page .psu-section:nth-of-type(odd) { background: var(--psu-paper); }
 .psu-complete-page .psu-section:nth-of-type(even), .psu-complete-page .psu-section--cream { background: var(--psu-cream); }
@@ -880,7 +848,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-large-copy { font-size: clamp(1.6rem, 3vw, 2.4rem); }
 .psu-complete-page .psu-btn { border-radius: 999px; }
 
-/* Resort cards and imagery */
 .psu-complete-page .psu-grid { gap: 1.25rem; }
 .psu-complete-page .psu-card, .psu-complete-page .psu-article { min-height: 290px; padding: 2.2rem; border: 1px solid var(--psu-line); border-radius: 20px; background: rgba(255,255,255,.86); box-shadow: 0 12px 38px rgba(20,57,47,.07); }
 .psu-complete-page .psu-card:nth-child(n) { border-radius: 20px; }
@@ -895,7 +862,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-real-gallery figure, .psu-complete-page .psu-gallery figure { border: 0; border-radius: 16px; box-shadow: none; }
 .psu-complete-page .psu-real-gallery figure:nth-child(n), .psu-complete-page .psu-gallery figure:nth-child(n) { border-radius: 16px; }
 
-/* Feature quote and call to action */
 .psu-complete-page .psu-section--dark { margin: 0; color: #fff; background: linear-gradient(90deg, rgba(10,43,34,.93), rgba(10,43,34,.63)), url("../images/therapy-room.webp") center/cover; }
 
 .psu-stays { background: #f7f4eb; }
@@ -952,7 +918,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 @media (max-width:850px){.psu-signature-grid,.psu-retreat-band__inner,.psu-testimonial-home__grid,.psu-journal-grid,.psu-home-gallery__head{grid-template-columns:1fr}.psu-journal-head{align-items:flex-start;flex-direction:column}.psu-gallery-mosaic{grid-template-columns:1fr 1fr;grid-template-rows:280px 210px 210px}.psu-gallery-mosaic__large{grid-column:1 / 3;grid-row:auto}}
 @media (max-width:560px){.psu-gallery-mosaic{display:block}.psu-gallery-mosaic a{display:block;height:240px;margin-bottom:12px}}
 
-/* Devsha-inspired resort design system — shared by every page */
 .psu-complete-page { --psu-forest:#06261c; --psu-forest-2:#10372b; --psu-cream:#f8f4e9; --psu-gold:#d3aa50; --psu-violet:#9a69a8; background:var(--psu-cream); }
 .psu-complete-page .psu-announcement { display:none; }
 .psu-complete-page .psu-global-header { position:absolute; inset:0 0 auto; z-index:20; background:linear-gradient(180deg,rgba(2,20,15,.9),rgba(2,20,15,.25),transparent); border:0; }
@@ -1011,7 +976,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-cta h2 em { color: #d9b2e8; }
 .psu-complete-page .psu-cta .psu-btn { color: var(--psu-deep) !important; background: #fff; }
 
-/* Forms, policies and footer */
 .psu-complete-page .psu-form { border-radius: 22px; background: var(--psu-deep); }
 .psu-complete-page .psu-faq details { border-radius: 12px; background: #fff; }
 .psu-complete-page .psu-policy { border-radius: 22px; background: #fff; }
@@ -1060,8 +1024,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
-
-
 :root {
   --bg: #f8f4e9;
   --accent: #b88a52;
@@ -1090,7 +1052,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   align-items: stretch;
 }
 
-/* ---------- LEFT ---------- */
 .about__label {
   font-size: 12.5px;
   letter-spacing: 0.18em;
@@ -1105,7 +1066,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   display: block;
 }
 
-/* ---------- RIGHT ---------- */
 .about__right {
   border-left: 1px solid var(--divider);
   padding: 36px 0 20px 60px;
@@ -1149,7 +1109,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   margin-top: 30px;
 }
 
-/* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
   .about {
     padding: 60px 24px;
@@ -1172,227 +1131,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   }
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap'); */
-
-/* .ways {
-  --bg: #f8f4e9;
-  --ink: #17382c;
-  --gold: #b8995a;
-  --text: #6b7a70;
-  --purple: #8a5fb0;
-  --green-soft: #dbe3cc;
-  --purple-soft: #d9cce6;
-
-  position: relative;
-  overflow: hidden;
-  background: var(--bg);
-  font-family: 'DM Sans', sans-serif;
-  padding: 40px 20px 20px;
-}
-
-.ways,
-.ways * {
-  box-sizing: border-box;
-}
-
-.ways__top,
-.ways__cards {
-  position: relative;
-  max-width: 1240px;
-  margin: 0 auto;
-}
-
-
-.ways__leaf {
-  position: absolute;
-  pointer-events: none;
-  z-index: 1;
-}
-.ways__leaf--left  { left: 0;  top: 90px; width: 80px; }
-.ways__leaf--right { right: 0; top: 20px; width: 200px; }
-
-.ways__top {
-  display: grid;
-  grid-template-columns: 1fr 560px;
-  align-items: start;
-  margin-bottom: -90px;          
-  z-index: 2;
-}
-
-.ways__intro {
-  padding: 20px 0 0 30px;
-}
-
-.ways__label {
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin: 0 0 22px;
-}
-
-.ways__title {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: clamp(44px, 6vw, 76px);
-  line-height: 1;
-  color: var(--ink);
-  margin: 0;
-}
-
-.ways__title em {
-  display: block;
-  font-style: italic;
-  font-weight: 400;
-  color: var(--purple);
-  margin-top: 4px;
-  padding-left: 95px;
-}
-
-.ways__hero {
-  height: 280px;
-  overflow: hidden;
-  border-radius: 55% 45% 50% 50% / 45% 60% 40% 55%;
-  box-shadow: 0 14px 40px rgba(23, 56, 44, 0.12);
-}
-
-.ways__hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.ways__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  z-index: 1;
-  padding-top: 20px;
-}
-
-.card {
-  position: relative;
-  background: rgba(255, 255, 255, 0.55);
-  border-radius: 14px;
-  padding: 0 26px 26px;
-  box-shadow: 0 6px 24px rgba(23, 56, 44, 0.06);
-  overflow: hidden;
-}
-
-
-.card::after {
-  content: "";
-  position: absolute;
-  right: -30px;
-  bottom: -30px;
-  width: 130px;
-  height: 110px;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  background: var(--green-soft);
-  opacity: 0.7;
-  z-index: 0;
-}
-.card--purple::after { background: var(--purple-soft); }
-
-.card > * { position: relative; z-index: 1; }
-
-
-.card__media {
-  position: relative;
-  width: 72%;
-  height: 125px;
-  margin: 0 0 14px 22px;
-}
-
-.card__media::before {
-  content: "";
-  position: absolute;
-  right: -34px;
-  top: 6px;
-  width: 95px;
-  height: 100px;
-  border-radius: 50%;
-  background: var(--green-soft);
-  z-index: 0;
-}
-.card--purple .card__media::before { background: var(--purple-soft); }
-
-.card__media img {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 50% 50% 45% 55% / 60% 55% 45% 40%;
-}
-
-
-.card__num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50% 0 50% 50%;
-  background: var(--green-soft);
-  color: var(--ink);
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-size: 15px;
-  margin-bottom: 14px;
-}
-.card--purple .card__num {
-  background: var(--purple-soft);
-  color: var(--purple);
-}
-
-.card__title {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.1;
-  color: var(--ink);
-  margin: 0 0 12px;
-}
-
-.card__text {
-  font-size: 14px;
-  line-height: 1.55;
-  color: var(--text);
-  max-width: 250px;
-  margin: 0 0 22px;
-}
-
-.card__link {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink);
-  text-decoration: none;
-}
-.card--purple .card__link { color: var(--purple); }
-
-.card__link:hover { text-decoration: underline; }
-.card__link:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 3px;
-}
-
-
-@media (max-width: 1000px) {
-  .ways__top {
-    grid-template-columns: 1fr;
-    margin-bottom: 0;
-  }
-  .ways__intro { padding-left: 0; margin-bottom: 24px; }
-  .ways__hero  { height: 240px; }
-  .ways__cards { grid-template-columns: 1fr; gap: 56px; padding-top: 50px; }
-  .ways__leaf  { display: none; }
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap');
 
 .elements {
@@ -1413,7 +1151,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   box-sizing: border-box;
 }
 
-/* ---------- LEFT IMAGE ---------- */
 .elements__media {
   position: relative;
   z-index: 1;
@@ -1426,7 +1163,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   object-fit: cover;
 }
 
-/* ---------- RIGHT PANEL ---------- */
 .elements__panel {
   position: relative;
   z-index: 2;
@@ -1436,7 +1172,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   justify-content: center;
 }
 
-/* image ke upar soft fade */
 .elements__panel::before {
   content: "";
   position: absolute;
@@ -1464,7 +1199,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   color: var(--purple);
 }
 
-/* ---------- ELEMENT ICONS ---------- */
 .elements__list {
   list-style: none;
   margin: 0 0 34px;
@@ -1525,7 +1259,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .el--air   { --c: #4d8d96; --soft: #dcedee; }
 .el--space { --c: #8a5fb0; --soft: #e7dcf2; }
 
-/* ---------- TEXT ---------- */
 .elements__text {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -1536,7 +1269,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   margin: 0;
 }
 
-/* ---------- DECORATIONS (leaf + lotus, code se bane) ---------- */
 .elements__branch {
   position: absolute;
   top: -6px;
@@ -1573,7 +1305,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .elements__list,
 .elements__text { position: relative; z-index: 1; }
 
-/* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
   .elements {
     grid-template-columns: 1fr;
@@ -1597,9 +1328,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   }
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500&display=swap'); */
-
-/* ===== SETTINGS (yahan se edit karo) ===== */
 .healing-section {
   --bg-image: url('assets/images/optimized/Healing in your hand.jpg');
   --bg-position: center;
@@ -1618,10 +1346,7 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   --section-ratio: 773 / 340;
 }
 
-/* ===== SECTION ===== */
-/* ===== HEALING SECTION ===== */
 .healing-section {
-  /* Settings (yahan se edit karo) */
   --bg-image: url('../images/Healing%20in%20your%20hand.png');
   --bg-position: center;
 
@@ -1638,7 +1363,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   --sub-size: clamp(0.5rem, 0.85vw, 0.72rem);
   --section-ratio: 773 / 340;
 
-  /* Section */
   position: relative;
   width: 100%;
   aspect-ratio: var(--section-ratio);
@@ -1730,22 +1454,18 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .healing-sub { font-size: 0.62rem; }
 }
 
-/* ===== SECTION GAP ===== */
 .section-gap {
-  height: 80px;          /* gap ki height yahan se badlo */
+  height: 80px;
   width: 100%;
 }
 
 @media (max-width: 640px) {
   .section-gap {
-    height: 40px;        /* mobile par chhota gap */
+    height: 40px;
   }
 }
 
-/* ===== PLAN YOUR STAY SECTION ===== */
-/* ===== PLAN YOUR STAY SECTION ===== */
 .stay-section {
-  /* Settings (yahan se edit karo) */
   --bg-color: #f7f2e7;
   --title-color: #1f3b2e;
   --accent-color: #9a63a8;
@@ -1773,7 +1493,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   box-sizing: border-box;
 }
 
-/* ===== DECORATIONS ===== */
 .stay-deco {
   position: absolute;
   pointer-events: none;
@@ -1808,7 +1527,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   height: auto;
 }
 
-/* ===== CONTENT ===== */
 .stay-inner {
   position: relative;
   z-index: 1;
@@ -1860,7 +1578,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   margin: 0.6vw 0 3.2vw;
 }
 
-/* ===== CARDS ===== */
 .stay-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1905,7 +1622,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   color: var(--text-color);
 }
 
-/* ===== ARROW ===== */
 .stay-arrow {
   display: flex;
   align-items: center;
@@ -1925,7 +1641,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   height: auto;
 }
 
-/* ===== ACTIVE / HOVER ===== */
 .stay-card:hover,
 .stay-card.active {
   background: rgba(255, 255, 255, 0.55);
@@ -1951,7 +1666,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   width: 48%;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 1100px) {
   .stay-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .stay-card { min-height: 230px; padding: 24px 26px 28px; border-radius: 22px; }
@@ -1977,242 +1691,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .stay-olive { width: 24%; }
 }
 
-
-
-
-
-
-/* .psu-loader {
-  position: fixed; inset: 0; z-index: 2000000;
-  display: grid; place-items: center;
-  background: #06261c; color: #f2d08b;
-  transition: opacity .8s ease, visibility .8s ease;
-}
-.psu-loader.is-hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-.psu-loader__inner { text-align: center; }
-.psu-loader__mark {
-  display: block; font-size: 2rem; margin-bottom: .8rem;
-  animation: psuSpinSlow 6s linear infinite;
-}
-.psu-loader__name {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(1.8rem, 5vw, 2.8rem); letter-spacing: .08em; color: #fff;
-  animation: psuFadeUp 1s ease both;
-}
-.psu-loader__name em { color: #f2d08b; font-style: italic; }
-.psu-loader__bar {
-  width: 160px; height: 2px; margin: 1.2rem auto 0;
-  background: rgba(255,255,255,.15); overflow: hidden;
-}
-.psu-loader__bar i {
-  display: block; height: 100%; width: 100%; background: #f2d08b;
-  transform-origin: left; animation: psuLoadBar 1.4s ease forwards;
-}
-
-
-.psu-progress {
-  position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 1000000;
-  background: linear-gradient(90deg, #c8a36a, #f2d08b, #d8b8e9);
-  transform-origin: left; transform: scaleX(0); pointer-events: none;
-}
-
-
-.psu-anim .psu-global-header .psu-header-inner > * {
-  animation: psuDropIn .9s cubic-bezier(.2,.7,.2,1) both;
-}
-.psu-anim .psu-global-header .psu-header-inner > *:nth-child(2) { animation-delay: .1s; }
-.psu-anim .psu-global-header .psu-header-inner > *:nth-child(3) { animation-delay: .2s; }
-.psu-anim .psu-global-header .psu-header-inner > *:nth-child(4) { animation-delay: .3s; }
-
-.psu-hero-media video {
-  animation: psuKenBurns 26s ease-in-out infinite alternate;
-  will-change: transform, translate;
-}
-.psu-hero__inner .psu-kicker,
-.psu-hero__inner .psu-intro,
-.psu-hero__inner .psu-actions > * { will-change: opacity, translate; }
-
-.psu-anim .psu-hero__inner > .psu-kicker,
-.psu-anim .psu-hero__inner > .psu-intro,
-.psu-anim .psu-hero__inner > .psu-actions > * {
-  opacity: 0; translate: 0 30px;
-}
-.psu-hero-go .psu-hero__inner > .psu-kicker,
-.psu-hero-go .psu-hero__inner > .psu-intro,
-.psu-hero-go .psu-hero__inner > .psu-actions > * {
-  opacity: 1; translate: 0 0;
-  transition: opacity 1s ease, translate 1s cubic-bezier(.2,.7,.2,1), transform .25s ease, background .25s ease, color .25s ease;
-}
-.psu-hero-go .psu-hero__inner > .psu-kicker { transition-delay: .1s; }
-.psu-hero-go .psu-hero__inner > .psu-intro { transition-delay: 1.0s; }
-.psu-hero-go .psu-hero__inner > .psu-actions > *:nth-child(1) { transition-delay: 1.2s; }
-.psu-hero-go .psu-hero__inner > .psu-actions > *:nth-child(2) { transition-delay: 1.35s; }
-
-
-.psu-petals { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
-.psu-petal {
-  position: absolute; top: -8%; left: var(--x);
-  width: var(--s); height: calc(var(--s) * .55);
-  background: radial-gradient(ellipse at 30% 30%, #fff8e6, #f2d08b 70%);
-  border-radius: 100% 0 100% 0; opacity: 0;
-  animation: psuPetalFall var(--d) linear var(--delay) infinite;
-}
-
-
-.psu-scroll-cue {
-  position: absolute; left: 50%; bottom: 26px; z-index: 2; translate: -50% 0;
-  width: 26px; height: 42px; border: 1.5px solid rgba(255,255,255,.7); border-radius: 20px;
-  pointer-events: none;
-}
-.psu-scroll-cue::after {
-  content: ""; position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px;
-  background: #f2d08b; border-radius: 4px; animation: psuCue 1.8s ease-in-out infinite;
-}
-@media (max-width: 700px) { .psu-scroll-cue { display: none; } }
-
-
-.psu-anim .psu-w {
-  display: inline-block; overflow: hidden; vertical-align: top;
-  padding-bottom: .14em; margin-bottom: -.14em;
-}
-.psu-anim .psu-w > i {
-  display: inline-block; font-style: inherit; translate: 0 115%;
-  transition: translate 1s cubic-bezier(.2,.75,.2,1);
-  transition-delay: calc(var(--i, 0) * 70ms + var(--base, 0ms));
-}
-.psu-anim .is-visible .psu-w > i,
-.psu-anim .psu-hero-go .psu-w > i,
-.psu-anim .psu-w-visible > i { translate: 0 0; }
-
-
-.psu-anim [data-reveal] {
-  opacity: 0; translate: 0 44px;
-  transition: opacity .9s ease, translate .9s cubic-bezier(.2,.7,.2,1),
-              transform .3s ease, box-shadow .3s ease, background .3s ease, border-color .3s ease;
-  will-change: opacity, translate;
-}
-.psu-anim [data-reveal="left"]  { translate: -60px 0; }
-.psu-anim [data-reveal="right"] { translate: 60px 0; }
-.psu-anim [data-reveal="zoom"]  { translate: 0 20px; scale: .92; }
-.psu-anim [data-reveal].is-visible { opacity: 1; translate: 0 0; scale: 1; }
-
-
-.psu-anim [data-reveal-img] {
-  clip-path: inset(0 0 100% 0); scale: 1.18;
-  transition: clip-path 1.3s cubic-bezier(.65,0,.2,1), scale 1.8s cubic-bezier(.2,.7,.2,1), transform .6s ease;
-}
-.psu-anim [data-reveal-img].is-visible { clip-path: inset(0 0 0 0); scale: 1; }
-
-
-.psu-anim [data-draw] path,
-.psu-anim [data-draw] circle,
-.psu-anim [data-draw] line {
-  stroke-dasharray: 1; stroke-dashoffset: 1;
-  transition: stroke-dashoffset 2.2s cubic-bezier(.5,0,.2,1) .2s;
-}
-.psu-anim [data-draw].is-visible path,
-.psu-anim [data-draw].is-visible circle,
-.psu-anim [data-draw].is-visible line { stroke-dashoffset: 0; }
-
-.psu-anim .about__bottom-line,
-.psu-anim .healing-divider { transform-origin: center; }
-.psu-anim .about__bottom-line[data-reveal] { translate: 0 0; scale: 0 1; opacity: 1; }
-.psu-anim .about__bottom-line[data-reveal].is-visible { scale: 1 1; transition: scale 1.6s cubic-bezier(.6,0,.2,1); }
-
-
-.psu-card:hover, .psu-stay-card:hover, .psu-article:hover,
-.psu-signature-grid > *:hover, .psu-journal-grid > *:hover, .stay-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 22px 50px rgba(15,48,40,.16);
-}
-.psu-stay-card:hover img, .psu-gallery-mosaic a:hover img,
-.psu-real-gallery figure:hover img, .psu-gallery figure:hover img,
-.psu-journal-grid article:hover img { transform: scale(1.08); }
-
-.stay-card .stay-icon { transition: translate .5s ease, rotate .5s ease; }
-.stay-card:hover .stay-icon { translate: 0 -6px; rotate: -6deg; }
-.stay-card .stay-arrow { transition: translate .4s ease; }
-.stay-card:hover .stay-arrow { translate: 10px 0; }
-
-.elements .el { transition: translate .4s ease, background .4s ease; }
-.elements .el:hover { translate: 8px 0; }
-.elements .el__icon { transition: rotate .9s cubic-bezier(.2,.7,.2,1), scale .4s ease; }
-.elements .el:hover .el__icon { rotate: 360deg; scale: 1.12; }
-
-.psu-btn, .about__btn { position: relative; overflow: hidden; }
-.psu-btn::before {
-  content: ""; position: absolute; top: 0; left: -75%; width: 50%; height: 100%;
-  background: linear-gradient(100deg, transparent, rgba(255,255,255,.45), transparent);
-  transform: skewX(-20deg); pointer-events: none;
-}
-.psu-btn:hover::before { animation: psuShine .9s ease; }
-.psu-btn:active { transform: translateY(0) scale(.97); }
-
-.about__btn { transition: letter-spacing .35s ease, background .2s; }
-.about__btn:hover { letter-spacing: .06em; }
-
-
-.elements__branch { transform-origin: bottom center; animation: psuSway 7s ease-in-out infinite alternate; }
-.elements__branch--left { animation-duration: 8.5s; animation-delay: -2s; }
-.elements__lotus { animation: psuFloat 6s ease-in-out infinite; }
-.elements__lotus-sm { animation: psuFloat 7s ease-in-out infinite reverse; }
-.elements__swoosh { animation: psuFloat 9s ease-in-out infinite; }
-.stay-shadow { transform-origin: top right; animation: psuSway 10s ease-in-out infinite alternate; }
-.stay-leaf { animation: psuFloat 8s ease-in-out infinite; }
-.healing-divider svg { animation: psuFloat 5s ease-in-out infinite; }
-.healing-title .highlight { animation: psuGlow 4s ease-in-out infinite alternate; }
-
-.psu-floating-actions .psu-whatsapp,
-.psu-whatsapp { animation: psuPulse 2.4s ease-out infinite; }
-
-.psu-mobile-menu.is-open > * { animation: psuFadeUp .5s ease both; }
-.psu-mobile-menu.is-open > *:nth-child(2) { animation-delay: .05s; }
-.psu-mobile-menu.is-open > *:nth-child(3) { animation-delay: .1s; }
-.psu-mobile-menu.is-open > *:nth-child(4) { animation-delay: .15s; }
-.psu-mobile-menu.is-open > *:nth-child(5) { animation-delay: .2s; }
-.psu-mobile-menu.is-open > *:nth-child(6) { animation-delay: .25s; }
-.psu-mobile-menu.is-open > *:nth-child(7) { animation-delay: .3s; }
-.psu-mobile-menu.is-open > *:nth-child(8) { animation-delay: .35s; }
-.psu-mobile-menu.is-open > *:nth-child(9) { animation-delay: .4s; }
-
-.psu-book-modal .psu-book-modal__panel { transition: translate .5s cubic-bezier(.2,.7,.2,1), scale .5s ease; translate: 0 40px; scale: .96; }
-.psu-book-modal.is-open .psu-book-modal__panel { translate: 0 0; scale: 1; }
-
-
-@keyframes psuFadeUp   { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-@keyframes psuDropIn   { from { opacity: 0; transform: translateY(-22px); } to { opacity: 1; transform: none; } }
-@keyframes psuSpinSlow { to { transform: rotate(360deg); } }
-@keyframes psuLoadBar  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@keyframes psuKenBurns { from { transform: scale(1.02); } to { transform: scale(1.14); } }
-@keyframes psuSway     { from { rotate: -2.5deg; } to { rotate: 2.5deg; } }
-@keyframes psuFloat    { 0%,100% { translate: 0 0; } 50% { translate: 0 -8px; } }
-@keyframes psuGlow     { from { text-shadow: 0 0 0 rgba(201,164,106,0); } to { text-shadow: 0 0 22px rgba(201,164,106,.45); } }
-@keyframes psuShine    { from { left: -75%; } to { left: 130%; } }
-@keyframes psuCue      { 0% { opacity: 0; translate: 0 0; } 30% { opacity: 1; } 100% { opacity: 0; translate: 0 16px; } }
-@keyframes psuPulse    { 0% { box-shadow: 0 0 0 0 rgba(39,135,90,.55); } 70% { box-shadow: 0 0 0 18px rgba(39,135,90,0); } 100% { box-shadow: 0 0 0 0 rgba(39,135,90,0); } }
-@keyframes psuPetalFall {
-  0%   { opacity: 0; transform: translate3d(0,0,0) rotate(0deg); }
-  10%  { opacity: .85; }
-  90%  { opacity: .6; }
-  100% { opacity: 0; transform: translate3d(var(--drift), 115vh, 0) rotate(540deg); }
-}
-
-
-@media (prefers-reduced-motion: reduce) {
-  .psu-loader, .psu-petals, .psu-scroll-cue, .psu-progress { display: none !important; }
-  .psu-hero-media video, .elements__branch, .elements__lotus, .elements__lotus-sm,
-  .elements__swoosh, .stay-shadow, .stay-leaf, .healing-divider svg,
-  .healing-title .highlight, .psu-whatsapp { animation: none !important; }
-} */
-
-/* =====================================================================
-   PURE SOUL UNIVERSE — ANIMATIONS.CSS
-   Isko style.css ke BAAD load karna hai (HTML me link tag se).
-   Reveal animations sirf tab chalte hain jab JS ne <html> par
-   "psu-anim" class lagayi ho — JS fail ho to site normal dikhegi.
-   ===================================================================== */
-
-/* ---------- 1. PAGE LOADER ---------- */
 .psu-loader {
   position: fixed; inset: 0; z-index: 2000000;
   display: grid; place-items: center;
@@ -2240,14 +1718,12 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   transform-origin: left; animation: psuLoadBar 1.4s ease forwards;
 }
 
-/* ---------- 2. SCROLL PROGRESS BAR ---------- */
 .psu-progress {
   position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 1000000;
   background: linear-gradient(90deg, #c8a36a, #f2d08b, #d8b8e9);
   transform-origin: left; transform: scaleX(0); pointer-events: none;
 }
 
-/* ---------- 3. HEADER ENTRANCE + SCROLL STATE ---------- */
 .psu-anim .psu-global-header .psu-header-inner > * {
   animation: psuDropIn .9s cubic-bezier(.2,.7,.2,1) both;
 }
@@ -2255,7 +1731,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-anim .psu-global-header .psu-header-inner > *:nth-child(3) { animation-delay: .2s; }
 .psu-anim .psu-global-header .psu-header-inner > *:nth-child(4) { animation-delay: .3s; }
 
-/* ---------- 4. HERO ---------- */
 .psu-hero-media video {
   animation: psuKenBurns 26s ease-in-out infinite alternate;
   will-change: transform, translate;
@@ -2280,7 +1755,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-hero-go .psu-hero__inner > .psu-actions > *:nth-child(1) { transition-delay: .6s; }
 .psu-hero-go .psu-hero__inner > .psu-actions > *:nth-child(2) { transition-delay: .72s; }
 
-/* scroll cue */
 .psu-scroll-cue {
   position: absolute; left: 50%; bottom: 26px; z-index: 2; translate: -50% 0;
   width: 26px; height: 42px; border: 1.5px solid rgba(255,255,255,.7); border-radius: 20px;
@@ -2292,7 +1766,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 }
 @media (max-width: 700px) { .psu-scroll-cue { display: none; } }
 
-/* ---------- 5. WORD-BY-WORD HEADINGS ---------- */
 .psu-anim .psu-w {
   display: inline-block; overflow: hidden; vertical-align: top;
   padding-bottom: .14em; margin-bottom: -.14em;
@@ -2302,7 +1775,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   transition: translate 1s cubic-bezier(.2,.75,.2,1);
   transition-delay: calc(var(--i, 0) * 70ms + var(--base, 0ms));
 }
-/* hero title: tez word animation */
 .psu-anim .psu-hero .psu-w > i {
   transition-duration: .75s;
   transition-delay: calc(var(--i, 0) * 45ms + var(--base, 0ms));
@@ -2311,7 +1783,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-anim .psu-hero-go .psu-w > i,
 .psu-anim .psu-w-visible > i { translate: 0 0; }
 
-/* ---------- 6. SCROLL REVEAL (generic) ---------- */
 .psu-anim [data-reveal] {
   opacity: 0; translate: 0 44px;
   transition: opacity .9s ease, translate .9s cubic-bezier(.2,.7,.2,1),
@@ -2323,14 +1794,12 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-anim [data-reveal="zoom"]  { translate: 0 20px; scale: .92; }
 .psu-anim [data-reveal].is-visible { opacity: 1; translate: 0 0; scale: 1; }
 
-/* image reveal: left se right wipe + settle zoom */
 .psu-anim [data-reveal-img] {
   clip-path: inset(0 100% 0 0); scale: 1.18;
   transition: clip-path 1.3s cubic-bezier(.65,0,.2,1), scale 1.8s cubic-bezier(.2,.7,.2,1), transform .6s ease;
 }
 .psu-anim [data-reveal-img].is-visible { clip-path: inset(0 0 0 0); scale: 1; }
 
-/* ---------- 7. LINE / SVG DRAW ---------- */
 .psu-anim [data-draw] path,
 .psu-anim [data-draw] circle,
 .psu-anim [data-draw] line {
@@ -2346,8 +1815,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-anim .about__bottom-line[data-reveal] { translate: 0 0; scale: 0 1; opacity: 1; }
 .psu-anim .about__bottom-line[data-reveal].is-visible { scale: 1 1; transition: scale 1.6s cubic-bezier(.6,0,.2,1); }
 
-/* ---------- 8. HOVER EFFECTS ---------- */
-/* cards lift */
 .psu-card:hover, .psu-stay-card:hover, .psu-article:hover,
 .psu-signature-grid > *:hover, .psu-journal-grid > *:hover, .stay-card:hover {
   transform: translateY(-8px);
@@ -2357,19 +1824,16 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-real-gallery figure:hover img, .psu-gallery figure:hover img,
 .psu-journal-grid article:hover img { transform: scale(1.08); }
 
-/* stay cards (Plan your stay) */
 .stay-card .stay-icon { transition: translate .5s ease, rotate .5s ease; }
 .stay-card:hover .stay-icon { translate: 0 -6px; rotate: -6deg; }
 .stay-card .stay-arrow { transition: translate .4s ease; }
 .stay-card:hover .stay-arrow { translate: 10px 0; }
 
-/* five elements list */
 .elements .el { transition: translate .4s ease, background .4s ease; }
 .elements .el:hover { translate: 8px 0; }
 .elements .el__icon { transition: rotate .9s cubic-bezier(.2,.7,.2,1), scale .4s ease; }
 .elements .el:hover .el__icon { rotate: 360deg; scale: 1.12; }
 
-/* buttons: shine sweep */
 .psu-btn, .about__btn { position: relative; overflow: hidden; }
 .psu-btn::before {
   content: ""; position: absolute; top: 0; left: -75%; width: 50%; height: 100%;
@@ -2379,11 +1843,9 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-btn:hover::before { animation: psuShine .9s ease; }
 .psu-btn:active { transform: translateY(0) scale(.97); }
 
-/* about link arrow nudge */
 .about__btn { transition: letter-spacing .35s ease, background .2s; }
 .about__btn:hover { letter-spacing: .06em; }
 
-/* ---------- 9. IDLE / DECORATIVE LOOPS ---------- */
 .elements__branch { transform-origin: bottom center; animation: psuSway 7s ease-in-out infinite alternate; }
 .elements__branch--left { animation-duration: 8.5s; animation-delay: -2s; }
 .elements__lotus { animation: psuFloat 6s ease-in-out infinite; }
@@ -2394,11 +1856,9 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .healing-divider svg { animation: psuFloat 5s ease-in-out infinite; }
 .healing-title .highlight { animation: psuGlow 4s ease-in-out infinite alternate; }
 
-/* whatsapp pulse ring */
 .psu-floating-actions .psu-whatsapp,
 .psu-whatsapp { animation: psuPulse 2.4s ease-out infinite; }
 
-/* mobile menu items slide in */
 .psu-mobile-menu.is-open > * { animation: psuFadeUp .5s ease both; }
 .psu-mobile-menu.is-open > *:nth-child(2) { animation-delay: .05s; }
 .psu-mobile-menu.is-open > *:nth-child(3) { animation-delay: .1s; }
@@ -2409,11 +1869,9 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-mobile-menu.is-open > *:nth-child(8) { animation-delay: .35s; }
 .psu-mobile-menu.is-open > *:nth-child(9) { animation-delay: .4s; }
 
-/* booking popup */
 .psu-book-modal .psu-book-modal__panel { transition: translate .5s cubic-bezier(.2,.7,.2,1), scale .5s ease; translate: 0 40px; scale: .96; }
 .psu-book-modal.is-open .psu-book-modal__panel { translate: 0 0; scale: 1; }
 
-/* ---------- 10. KEYFRAMES ---------- */
 @keyframes psuFadeUp   { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 @keyframes psuDropIn   { from { opacity: 0; transform: translateY(-22px); } to { opacity: 1; transform: none; } }
 @keyframes psuSpinSlow { to { transform: rotate(360deg); } }
@@ -2426,7 +1884,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 @keyframes psuCue      { 0% { opacity: 0; translate: 0 0; } 30% { opacity: 1; } 100% { opacity: 0; translate: 0 16px; } }
 @keyframes psuPulse    { 0% { box-shadow: 0 0 0 0 rgba(39,135,90,.55); } 70% { box-shadow: 0 0 0 18px rgba(39,135,90,0); } 100% { box-shadow: 0 0 0 0 rgba(39,135,90,0); } }
 
-/* ---------- 11. REDUCED MOTION (accessibility) ---------- */
 @media (prefers-reduced-motion: reduce) {
   .psu-loader, .psu-scroll-cue, .psu-progress { display: none !important; }
   .psu-hero-media video, .elements__branch, .elements__lotus, .elements__lotus-sm,
@@ -2434,10 +1891,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .healing-title .highlight, .psu-whatsapp { animation: none !important; }
 }
 
-
-/* ===== ABOUT PAGE ONLY: hero text + dark shadow ===== */
-
-/* piche ka black shadow */
 .psu-complete-page[data-psu-page] .psu-hero::after {
   content: "";
   position: absolute;
@@ -2454,7 +1907,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   z-index: 2;
 }
 
-/* "Our story" */
 .psu-complete-page[data-psu-page] .psu-hero .psu-kicker {
   display: flex;
   align-items: center;
@@ -2473,7 +1925,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* Heading */
 .psu-complete-page[data-psu-page] .psu-hero .psu-title {
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 500;
@@ -2487,7 +1938,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   color: #ffffff;
 }
 
-/* Paragraph */
 .psu-complete-page[data-psu-page] .psu-hero .psu-intro {
   color: #ffffff;
   font-size: 1rem;
@@ -2495,14 +1945,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-/* =====================================================================
-   ABOUT: VISION & MISSION — LAYOUT + SCROLL ANIMATION (all-in-one)
-   ===================================================================== */
-
-/* ---------------- LAYOUT ---------------- */
 .psu-complete-page .psu-vm{position:relative;overflow:hidden;width:100%;background:#faf6ec;padding:60px 0 50px;font-family:"Manrope",Arial,sans-serif;font-size:16px;line-height:1.5;text-align:left}
 .psu-complete-page .psu-vm *{box-sizing:border-box}
 .psu-complete-page .psu-vm img{max-width:none}
@@ -2552,7 +1994,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-complete-page .psu-vm__tag::after{content:"";flex:1;height:1px;background:#a9c4b2;max-width:140px}
 .psu-complete-page .psu-vm__foot{margin-top:30px}
 
-/* ---------------- RESPONSIVE LAYOUT ---------------- */
 @media (max-width:1000px){
   .psu-complete-page .psu-vm__grid{grid-template-columns:1fr}
   .psu-complete-page .psu-vm__title{font-size:44px}
@@ -2568,12 +2009,10 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .psu-complete-page .psu-vm__cluster{width:80px;height:105px}
 }
 
-/* ---------------- ANIMATION ---------------- */
 .psu-vm { --vm-ease: cubic-bezier(.2,.7,.2,1); --vm-spring: cubic-bezier(.34,1.56,.64,1); }
 .psu-vm .psu-vm__card { --b: 0s; transition: translate .4s ease, box-shadow .4s ease; }
 .psu-vm .psu-vm__card--mission { --b: .25s; }
 
-/* start state (sirf JS chalne par hidden) */
 .psu-vm-js .psu-vm__blob,
 .psu-vm-js .psu-vm__corner,
 .psu-vm-js .psu-vm__kicker,
@@ -2591,7 +2030,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-vm-js .psu-vm__desc,
 .psu-vm-js .psu-vm__tag { opacity: 0; }
 
-/* heading */
 .psu-vm__head.is-in .psu-vm__kicker { opacity: 1; animation: vmxUp .9s var(--vm-ease) 0s backwards; }
 .psu-vm__head.is-in .psu-vm__lotus-row { opacity: 1; animation: vmxFade .7s ease .15s backwards; }
 .psu-vm__head.is-in .psu-vm__lotus-row::before { transform-origin: right center; animation: vmxLine 1s var(--vm-ease) .45s backwards; }
@@ -2604,7 +2042,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 }
 .psu-vm__head.is-in .psu-vm__sub { opacity: 1; animation: vmxUp .9s var(--vm-ease) 1s backwards; }
 
-/* cards */
 .psu-vm__card.is-in { opacity: 1; animation: vmxCardL 1.1s var(--vm-ease) var(--b) backwards; }
 .psu-vm__card--mission.is-in { animation-name: vmxCardR; }
 
@@ -2628,17 +2065,14 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .psu-vm__card.is-in:hover { translate: 0 -6px; box-shadow: 0 26px 55px rgba(36,79,64,.15); }
 }
 
-/* foot lotus */
 .psu-vm__foot.is-in { opacity: 1; animation: vmxFade .8s ease backwards; }
 .psu-vm__foot.is-in::before { transform-origin: right center; animation: vmxLine 1s var(--vm-ease) .3s backwards; }
 .psu-vm__foot.is-in::after  { transform-origin: left center;  animation: vmxLine 1s var(--vm-ease) .3s backwards; }
 
-/* background blobs + corner leaves */
 .psu-vm-in .psu-vm__blob { opacity: 1; animation: vmxFade 2s ease backwards; }
 .psu-vm-in .psu-vm__corner--tl { opacity: 1; animation: vmxCorner 1.6s var(--vm-ease) .1s backwards; }
 .psu-vm-in .psu-vm__corner--br { opacity: .9; animation: vmxCornerBr 1.6s var(--vm-ease) .3s backwards; }
 
-/* keyframes */
 @keyframes vmxFade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes vmxUp {
   from { opacity: 0; translate: 0 24px; }
@@ -2705,26 +2139,21 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   to   { opacity: .9; translate: 0 0; }
 }
 
-/* mobile */
 @media (max-width: 1000px) {
   .psu-vm .psu-vm__card--mission { --b: 0s; }
   .psu-vm__card.is-in,
   .psu-vm__card--mission.is-in { animation-name: vmxCardUp; }
 }
 
-/* reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .psu-vm *, .psu-vm *::before, .psu-vm *::after { animation: none !important; transition: none !important; }
 }
 
-
-/* ===== Vision & Mission: section ke upar-neeche gap ===== */
 .psu-complete-page .psu-vm {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* mobile par thoda kam gap */
 @media (max-width: 600px) {
   .psu-complete-page .psu-vm {
     margin-top: 20px;
@@ -2734,12 +2163,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-gap { height: 50px; width: 100%; }
 @media (max-width: 600px) { .psu-gap { height: 20px; } }
 
-
-
-
-/* =====================================================================
-   PANCHA TATVA — LAYOUT
-   ===================================================================== */
 .pt{position:relative;overflow:hidden;margin:50px 0;padding:64px 0 84px;font-family:"Manrope",Arial,sans-serif;
   background:
     radial-gradient(circle at 0% 25%, rgba(150,172,110,.18), transparent 30%),
@@ -2748,13 +2171,11 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt *{box-sizing:border-box}
 .pt__wrap{position:relative;z-index:2;width:100%;max-width:1240px;margin:0 auto;padding:0 24px}
 
-/* leaves */
 .pt__deco{position:absolute;z-index:1;overflow:visible;pointer-events:none;opacity:.9}
 .pt__deco--tl{top:-30px;left:-40px;width:340px;transform:rotate(-10deg)}
 .pt__deco--tr{top:-30px;right:-40px;width:280px;transform:scaleX(-1) rotate(-6deg)}
 .pt__deco--bl{bottom:30px;left:-40px;width:150px;transform:rotate(-80deg);opacity:.7}
 
-/* heading */
 .pt__head{text-align:center}
 .pt__lotus{display:block;width:46px;height:32px;margin:0 auto 6px;fill:none;stroke:#a77bc4;stroke-width:1.2;stroke-linejoin:round}
 .pt__kicker{display:flex;align-items:center;justify-content:center;gap:18px;margin:0;color:#a171c0;font-size:13px;font-weight:500;letter-spacing:.3em;text-transform:uppercase}
@@ -2766,10 +2187,8 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt__divider::before,.pt__divider::after{content:"";width:190px;max-width:28vw;height:1px;background:#8a9a6a}
 .pt__divider svg{width:24px;height:24px;fill:none;stroke:#7d9660;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
 
-/* grid */
 .pt__grid{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:44px}
 
-/* card */
 .pt-card{
   --c:#5b6b26;--n:#4d5a1f;--bd:#c3cc98;--t:#56633f;
   --bg:linear-gradient(180deg,#f1f0d8,#f9f6ea);
@@ -2802,7 +2221,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt-card__ico::before,.pt-card__ico::after{content:"";flex:1;height:1px;background:var(--c);opacity:.18}
 .pt-card__ico svg{flex:none;width:32px;height:32px;fill:none;stroke:var(--c);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
 
-/* responsive */
 @media (max-width:1100px){
   .pt-card{flex:0 0 calc((100% - 40px) / 3)}
 }
@@ -2819,9 +2237,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .pt-card p{font-size:13.5px}
 }
 
-/* =====================================================================
-   PANCHA TATVA — SCROLL ANIMATION
-   ===================================================================== */
 .pt { --pt-ease: cubic-bezier(.2,.7,.2,1); --pt-spring: cubic-bezier(.34,1.56,.64,1); }
 .pt-card:nth-child(1){--d:0s}
 .pt-card:nth-child(2){--d:.15s}
@@ -2829,17 +2244,14 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt-card:nth-child(4){--d:.45s}
 .pt-card:nth-child(5){--d:.6s}
 
-/* start state: sirf JS chalne par hidden */
 .pt-js .pt:not(.pt-in) .pt__deco { opacity: 0; }
 .pt-js .pt__head:not(.is-in) > * { opacity: 0; }
 .pt-js .pt-card:not(.is-in) { opacity: 0; }
 
-/* leaves */
 .pt.pt-in .pt__deco--tl { animation: ptDecoL 1.6s var(--pt-ease) .1s backwards, ptSway 8s ease-in-out 2s infinite alternate; }
 .pt.pt-in .pt__deco--tr { animation: ptDecoR 1.6s var(--pt-ease) .2s backwards, ptSwayR 9s ease-in-out 2.2s infinite alternate; }
 .pt.pt-in .pt__deco--bl { animation: ptDecoL 1.6s var(--pt-ease) .5s backwards; }
 
-/* heading */
 .pt__head.is-in .pt__lotus   { animation: ptDrop .9s var(--pt-spring) 0s backwards; }
 .pt__head.is-in .pt__kicker  { animation: ptFade .8s ease .2s backwards; }
 .pt__head.is-in .pt__kicker::before { transform-origin: right center; animation: ptLine 1s var(--pt-ease) .5s backwards; }
@@ -2855,7 +2267,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt__head.is-in .pt__divider::after  { transform-origin: left center;  animation: ptLine 1.1s var(--pt-ease) 1.4s backwards; }
 .pt__head.is-in .pt__divider svg { animation: ptSpin 1s var(--pt-spring) 1.4s backwards; }
 
-/* cards */
 .pt-card.is-in { animation: ptCard 1.1s var(--pt-ease) var(--d, 0s) backwards; }
 .pt-card.is-in .pt-card__art {
   animation:
@@ -2873,7 +2284,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .pt-card.is-in .pt-card__ico::before { transform-origin: right center; animation: ptLine .9s var(--pt-ease) calc(var(--d, 0s) + 1.3s) backwards; }
 .pt-card.is-in .pt-card__ico::after  { transform-origin: left center;  animation: ptLine .9s var(--pt-ease) calc(var(--d, 0s) + 1.3s) backwards; }
 
-/* keyframes (sirf "from", end hamesha original CSS hota hai) */
 @keyframes ptFade  { from { opacity: 0; } }
 @keyframes ptUp    { from { opacity: 0; translate: 0 22px; } }
 @keyframes ptDrop  { from { opacity: 0; translate: 0 -20px; } }
@@ -2889,21 +2299,14 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 @keyframes ptSway  { from { rotate: 0deg; } to { rotate: 2.5deg; } }
 @keyframes ptSwayR { from { rotate: 0deg; } to { rotate: -2.5deg; } }
 
-/* mobile: stagger hata do */
 @media (max-width: 720px) {
   .pt-card { --d: 0s !important; }
 }
 
-/* reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .pt *, .pt *::before, .pt *::after { animation: none !important; }
 }
 
-
-
-/* =====================================================
-   PRACTICES SECTION — COMPLETE CSS
-   ===================================================== */
 .jw {
   --jw-bg: #fbf6ee;
   --jw-ink: #0f2f29;
@@ -2924,7 +2327,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .jw, .jw * { box-sizing: border-box; }
 .jw__wrap { position: relative; z-index: 2; width: min(calc(100% - 56px), 1100px); margin-inline: auto; }
 
-/* ---------- decorations ---------- */
 .jw__deco { position: absolute; z-index: 1; pointer-events: none; }
 .jw__leaves-tl { top: -30px; left: -40px; width: clamp(100px, 13vw, 190px); transform-origin: top left; animation: jwSway 9s ease-in-out infinite alternate; }
 .jw__leaves-br { right: -30px; bottom: -20px; width: clamp(80px, 9vw, 140px); transform-origin: bottom right; animation: jwSway 10s ease-in-out infinite alternate-reverse; }
@@ -2942,7 +2344,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .jw__script span:nth-child(3) { margin-left: 2rem; }
 .jw__script svg { display: block; width: 100px; margin: .3rem 0 0 .2rem; }
 
-/* ---------- heading ---------- */
 .jw__head { text-align: center; }
 .jw__lotus-top { display: block; width: 70px; margin: 0 auto 4px; }
 .jw__kicker {
@@ -2958,7 +2359,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .jw__title em { display: block; color: var(--jw-violet); font-style: italic; }
 .jw__lead { max-width: 580px; margin: 1rem auto 0; color: #44504b; font-size: .85rem; line-height: 1.65; }
 
-/* ---------- grid + cards ---------- */
 .jw__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.9rem; }
 .jw-card {
   position: relative; display: grid; grid-template-columns: 42% 1fr; min-height: 230px; overflow: hidden;
@@ -2976,7 +2376,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .jw-card__photo img { display: block; width: 100%; height: 100%; object-fit: cover; transition: scale 1.2s var(--jw-ease); }
 .jw-card__body { position: relative; z-index: 1; display: flex; flex-direction: column; padding: 1.2rem 1rem 1.1rem .1rem; }
 
-/* icons */
 .jw-card__icon {
   display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: .5rem;
   border-radius: 50%;
@@ -3012,13 +2411,11 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .jw-card:hover .jw-card__pill svg { translate: 4px 0; }
 }
 
-/* ---------- footer ---------- */
 .jw__foot { display: flex; flex-direction: column; align-items: center; gap: .5rem; margin-top: 1.8rem; color: #3f5a50; font-size: .68rem; letter-spacing: .3em; text-transform: uppercase; }
 .jw__foot span { display: flex; align-items: center; gap: 1.2rem; }
 .jw__foot span::before, .jw__foot span::after { content: ""; width: clamp(40px, 8vw, 110px); height: 1px; background: #bcb7a4; }
 .jw__foot svg { width: 70px; }
 
-/* ---------- responsive ---------- */
 @media (max-width: 1100px) { .jw__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) {
   .jw__wrap { width: calc(100% - 28px); }
@@ -3027,7 +2424,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .jw-card { min-height: 220px; }
 }
 
-/* ---------- scroll animation (JS chalne par) ---------- */
 .jw-js .jw__head > *, .jw-js .jw-card, .jw-js .jw__foot { opacity: 0; }
 .jw-js .jw__title .jw__w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .14em; margin-bottom: -.14em; }
 .jw-js .jw__title .jw__w > i { display: inline-block; font-style: inherit; translate: 0 115%; }
@@ -3065,11 +2461,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .jw-js .jw__title .jw__w > i { translate: 0 0; }
 }
 
-
-
-/* =====================================================
-   WELLNESS NOTE BANNER
-   ===================================================== */
 .wn-section { padding: clamp(2.5rem, 5vw, 4.5rem) 0; background: #f8f2e5; }
 .wn-wrap { width: min(calc(100% - 56px), 1240px); margin-inline: auto; }
 
@@ -3092,7 +2483,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 }
 .wn, .wn * { box-sizing: border-box; }
 
-/* ---------- blobs / curves ---------- */
 .wn__blob { position: absolute; border-radius: 50%; pointer-events: none; }
 .wn__blob--green { top: -90px; left: -60px; width: 260px; height: 220px; background: rgba(205,215,190,.55); }
 .wn__blob--pink  { bottom: -70px; left: 30px; width: 190px; height: 140px; background: rgba(240,205,210,.6); }
@@ -3100,12 +2490,10 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .wn__blob--pink2 { right: -50px; bottom: -40px; width: 200px; height: 190px; background: rgba(243,208,214,.6); }
 .wn__curve { position: absolute; right: 30px; bottom: 0; width: 200px; pointer-events: none; }
 
-/* ---------- branches ---------- */
 .wn__branch { position: absolute; pointer-events: none; z-index: 1; }
 .wn__branch--left  { left: 14px; bottom: -6px; width: clamp(130px, 11vw, 175px); transform-origin: bottom center; animation: wnSway 8s ease-in-out infinite alternate; }
 .wn__branch--right { right: 0; top: 0; width: clamp(90px, 8vw, 130px); transform-origin: top right; animation: wnSway 9s ease-in-out infinite alternate-reverse; }
 
-/* ---------- icon ---------- */
 .wn__iconbox { position: relative; z-index: 2; display: grid; place-items: center; padding: 1.6rem 0 1.6rem 3.2rem; }
 .wn__circle {
   display: grid; place-items: center; width: clamp(110px, 9vw, 135px); aspect-ratio: 1; border-radius: 50%;
@@ -3115,10 +2503,8 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .wn__heart, .wn__pulse { stroke-dasharray: 1; }
 .wn__sparks { position: absolute; right: -4px; top: 28%; width: 26px; opacity: .85; animation: wnSpark 2.6s ease-in-out infinite; }
 
-/* ---------- divider ---------- */
 .wn__divider { align-self: stretch; margin: 1.6rem 0; width: 1px; background: #b9c0a4; transform-origin: top; }
 
-/* ---------- content ---------- */
 .wn__content { position: relative; z-index: 2; padding: 1.5rem clamp(1.4rem, 5vw, 5rem) 1.5rem clamp(1.4rem, 3.4vw, 3.6rem); }
 .wn__pill {
   position: relative; overflow: hidden;
@@ -3135,7 +2521,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .wn__rule { display: block; width: 52px; height: 3px; margin: .9rem 0 1.1rem; border-radius: 3px; background: linear-gradient(90deg, var(--wn-pink), #e8d3cf); transform-origin: left; }
 .wn__text { max-width: 900px; margin: 0; color: #12403a; font-size: clamp(.92rem, 1.15vw, 1.08rem); line-height: 1.8; }
 
-/* ---------- responsive ---------- */
 @media (max-width: 800px) {
   .wn-wrap { width: calc(100% - 28px); }
   .wn { grid-template-columns: 1fr; padding-bottom: 1rem; }
@@ -3148,7 +2533,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .wn__branch--right { display: none; }
 }
 
-/* ---------- animation (JS chalne par) ---------- */
 .wn-js .wn { opacity: 0; }
 .wn-js .wn.is-in { opacity: 1; animation: wnCard 1s var(--wn-ease) backwards; }
 
@@ -3168,7 +2552,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .wn.is-in .wn__rule    { scale: 1 1; transition: scale .9s var(--wn-ease) 1.05s; }
 .wn.is-in .wn__text    { opacity: 1; animation: wnUp .9s var(--wn-ease) 1.15s backwards; }
 
-/* heartbeat after reveal */
 .wn.is-in .wn__circle svg { animation: wnBeat 2.4s ease-in-out 2.2s infinite; transform-origin: center; }
 
 @keyframes wnCard  { from { opacity: 0; translate: 0 50px; scale: .97; } }
@@ -3190,8 +2573,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .wn-js .wn__rule, .wn-js .wn__divider { scale: 1 1; }
 }
 
-
-
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Inter:wght@400;500&display=swap");
 
 .formats{
@@ -3208,12 +2589,10 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .formats *,.formats *::before,.formats *::after{box-sizing:border-box}
 .formats__inner{position:relative;z-index:1;max-width:1427px;margin:0 auto}
 
-/* top-right decoration */
 .formats__moon{position:absolute;top:140px;right:-34px;width:140px;height:165px;background:var(--lilac);opacity:.8;
   border-radius:54% 46% 52% 48%/50% 56% 44% 50%;animation:morph 14s ease-in-out infinite}
 .formats__leaf{position:absolute;top:0;right:0;width:226px;height:auto;z-index:0;transform-origin:100% 40%;animation:sway 7s ease-in-out infinite}
 
-/* heading */
 .formats__head{padding-left:17px;margin-bottom:46px}
 .formats__eyebrow{display:flex;align-items:center;gap:20px;margin:0 0 16px;font-size:15px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--plum)}
 .formats__eyebrow i{display:block;height:1px;width:0;background:var(--plum);transition:width 1s var(--ease) .5s}
@@ -3227,7 +2606,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .formats__sub{margin:0;max-width:64ch;font-size:clamp(15px,1.17vw,18px);line-height:1.6;color:var(--text);opacity:0;transform:translateY(12px);transition:opacity .9s ease .5s,transform .9s var(--ease) .5s}
 .is-ready .formats__sub{opacity:1;transform:none}
 
-/* grid + card */
 .formats__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:31px;align-items:stretch}
 .card{position:relative;display:flex;flex-direction:column;padding-bottom:34px;
   background:linear-gradient(180deg,#fdf8ef,#faf3e6);border:1px solid rgba(196,160,92,.62);border-radius:22px;
@@ -3237,7 +2615,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .card--2{transition-delay:.12s}.card--3{transition-delay:.24s}
 .card.in:hover{transform:translateY(-6px);box-shadow:0 26px 44px -26px rgba(60,50,20,.42);transition-delay:0s}
 
-/* media (all offsets are % of a 455 x 310 frame, taken from the design) */
 .card__media{position:relative;width:100%;aspect-ratio:455/310;z-index:2}
 .card__photo{position:absolute;z-index:2;animation:float 9s ease-in-out infinite}
 .card--2 .card__photo{animation-delay:-3s}.card--3 .card__photo{animation-delay:-6s}
@@ -3257,7 +2634,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .leaf-gold--mr{left:88%;top:56%;width:11%}
 .sprig-br{right:3%;bottom:12px;width:13%}
 
-/* body */
 .card__body{display:flex;flex-direction:column;flex:1;padding:0 30px;margin-top:-10px;position:relative;z-index:3}
 .card--3 .card__body{margin-top:-18px}
 .card__meta{display:flex;align-items:center;gap:24px;margin-bottom:12px}
@@ -3286,14 +2662,7 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 @media(max-width:640px){.formats{padding:32px 18px 56px}.formats__head{padding-left:0}.formats__grid{grid-template-columns:1fr}.formats__leaf{opacity:.5}.formats__title .line{display:inline}.formats__title .line>span{display:inline;transform:none}}
 @media(prefers-reduced-motion:reduce){.formats *,.formats *::before,.formats *::after{animation:none!important;transition:none!important}.card,.formats__sub{opacity:1;transform:none}.formats__title .line>span{transform:none}.icon path,.icon circle,.ring path{stroke-dashoffset:0}.formats__eyebrow i{width:70px}}
 
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Figtree:wght@400;500;600&display=swap");
-
-/* A day at Pure Soul — animated section
-   1 design px = 1/1839 of the section width = --u */
 
 .ps-wrap {
   --green: #0f4a3c;
@@ -3318,7 +2687,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   background: var(--page);
 }
 
-/* ---------- Decorations ---------- */
 .deco { position: absolute; pointer-events: none; transform-origin: var(--ox, 0 0); animation: sway 9s ease-in-out infinite; }
 .deco--tl { left: 0; top: 0; width: calc(var(--u) * 180); --ox: 0% 0%; -webkit-mask-image: linear-gradient(#000 78%, transparent); mask-image: linear-gradient(#000 78%, transparent); }
 .deco--tr { right: 0; top: 0; width: calc(var(--u) * 139); --ox: 100% 0%; animation-delay: -3s; -webkit-mask-image: linear-gradient(#000 78%, transparent); mask-image: linear-gradient(#000 78%, transparent); }
@@ -3329,7 +2697,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   50%      { transform: rotate(1.6deg) scale(1.015); }
 }
 
-/* ---------- Header ---------- */
 .ps__head { position: absolute; left: calc(var(--u) * 248); top: 0; width: calc(var(--u) * 900); z-index: 2; }
 
 .ps__eyebrow {
@@ -3377,7 +2744,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .ps.in .ps__script { clip-path: inset(0 0 0 0); animation: floatS 7s ease-in-out 3.5s infinite; }
 @keyframes floatS { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(calc(var(--u) * -4)) rotate(-.6deg); } }
 
-/* ---------- Rows ---------- */
 .ps__list { list-style: none; position: absolute; inset: 0; z-index: 1; pointer-events: none; }
 
 .row {
@@ -3401,13 +2767,13 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .row:nth-child(3) { top: calc(var(--u) * 548); height: calc(var(--u) * 120); --bg: #f2f4ea; --bd: #b6c5af; --icon-y: 3; --label-y: 29; --leaf-y: 36; }
 .row:nth-child(4) { top: calc(var(--u) * 686); height: calc(var(--u) * 124); --bg: #fdf3ed; --bd: #f5bfb7; }
 
-.row::before { /* soft light following the cursor */
+.row::before {
   content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0;
   background: radial-gradient(calc(var(--u) * 320) circle at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,.75), transparent 70%);
   opacity: 0; transition: opacity .35s;
 }
 .row:hover::before { opacity: 1; }
-.row::after { /* one-time light sweep when it appears */
+.row::after {
   content: ""; position: absolute; top: 0; bottom: 0; left: -40%; width: 30%; pointer-events: none;
   background: linear-gradient(100deg, transparent, rgba(255,255,255,.7), transparent);
   transform: skewX(-18deg); opacity: 0;
@@ -3480,7 +2846,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .row:nth-child(4) .row__sprig { animation-delay: -4.5s; }
 @keyframes sprig { 0%, 100% { transform: rotate(-1.5deg); } 50% { transform: rotate(2.5deg); } }
 
-/* ---------- Tablet & mobile: stacked layout ---------- */
 @container (max-width: 900px) {
   .ps { height: auto; padding: 28px 18px 40px; display: flex; flex-direction: column; }
   .ps > :not(.deco) { position: relative; }
@@ -3525,7 +2890,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .row__tag::after { width: calc(var(--u) * 55); }
 }
 
-/* ===== Theme-proof image sizes (site CSS img { width:100% } ko override karta hai) ===== */
 .ps-wrap .ps img { height: auto !important; max-width: none !important; min-width: 0 !important; }
 .ps-wrap .deco--tl { width: calc(var(--u) * 180) !important; }
 .ps-wrap .deco--tr { width: calc(var(--u) * 139) !important; }
@@ -3549,14 +2913,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .ps-wrap .row__sprig { width: 62px !important; }
 }
 
-
-
-
-
-
-/* =====================================================================
-   PURE SOUL — GALLERY SECTION (CSS) : filters + mosaic + lightbox
-   ===================================================================== */
 .psu-gx {
   --gx-forest: #163f35;
   --gx-deep: #0f3028;
@@ -3578,7 +2934,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-gx, .psu-gx *, .psu-gx-lb, .psu-gx-lb * { box-sizing: border-box; }
 .psu-gx__wrap { width: min(calc(100% - 56px), 1240px); margin-inline: auto; }
 
-/* ---------- heading ---------- */
 .psu-gx__head {
   display: grid; grid-template-columns: 1.15fr .85fr; align-items: end;
   gap: clamp(1.6rem, 6vw, 6rem); margin-bottom: 2.4rem;
@@ -3588,7 +2943,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-gx__title em { color: var(--gx-violet); font-style: italic; }
 .psu-gx__lead { margin: 0; color: var(--gx-muted); font-size: 1rem; line-height: 1.8; max-width: 520px; }
 
-/* ---------- filter bar ---------- */
 .psu-gx__bar {
   position: relative; z-index: 5;
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
@@ -3614,7 +2968,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-gx__count { margin: 0; color: var(--gx-muted); font-size: .8rem; letter-spacing: .06em; }
 .psu-gx__count span { color: var(--gx-forest); font-weight: 800; }
 
-/* ---------- grid ---------- */
 .psu-gx__grid {
   display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-auto-rows: clamp(210px, 22vw, 290px); grid-auto-flow: dense; gap: 14px;
@@ -3651,7 +3004,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 }
 @media (hover: none) { .psu-gx__item::before { opacity: 1; transform: none; } }
 
-/* ---------- animations (sirf JS chalne par) ---------- */
 .psu-gx-js .psu-gx__item.gx-pre { opacity: 0; translate: 0 40px; scale: .96; }
 .psu-gx-js .psu-gx__item.gx-in {
   opacity: 1; translate: 0 0; scale: 1;
@@ -3661,7 +3013,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
 .psu-gx__item.gx-show { animation: gxShow .7s var(--gx-ease) both; animation-delay: calc(var(--gx-i, 0) * 60ms); }
 @keyframes gxShow { from { opacity: 0; translate: 0 26px; scale: .95; } to { opacity: 1; translate: 0 0; scale: 1; } }
 
-/* ---------- responsive ---------- */
 @media (max-width: 1000px) {
   .psu-gx__head { grid-template-columns: 1fr; align-items: start; }
   .psu-gx__grid, .psu-gx__grid[data-mode="all"] { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: clamp(170px, 30vw, 260px); }
@@ -3678,9 +3029,6 @@ body.psu-site-page { color: var(--psu-ink); background: var(--psu-paper); }
   .psu-gx__item::before { width: 32px; height: 32px; right: .7rem; bottom: .7rem; }
 }
 
-/* =====================================================================
-   LIGHTBOX
-   ===================================================================== */
 .psu-gx-lb { position: fixed; inset: 0; z-index: 2100000; display: grid; place-items: center; opacity: 0; visibility: hidden; transition: opacity .35s ease, visibility .35s ease; font-family: "Manrope", Arial, sans-serif; }
 .psu-gx-lb.is-open { opacity: 1; visibility: visible; }
 .psu-gx-lb[hidden] { display: none; }
@@ -3717,12 +3065,6 @@ body.psu-gx-lock { overflow: hidden !important; }
   .psu-gx-js .psu-gx__item.gx-pre { opacity: 1; translate: none; scale: 1; }
 }
 
-
-
-
-/* =====================================================================
-   PURE SOUL — CONTACT SECTION (CSS)
-   ===================================================================== */
 .psu-ct {
   --ct-bg: #f7f1e3;
   --ct-forest: #0f3329;
@@ -3742,7 +3084,6 @@ body.psu-gx-lock { overflow: hidden !important; }
 .psu-ct, .psu-ct * { box-sizing: border-box; }
 .psu-ct svg { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 
-/* ---------- decorations ---------- */
 .psu-ct__deco { position: absolute; pointer-events: none; z-index: 0; }
 .psu-ct__deco--leaf { left: 0; top: 140px; width: 105px; }
 .psu-ct__deco--curve { left: 0; top: 40px; width: 62px; height: 480px; }
@@ -3750,7 +3091,6 @@ body.psu-gx-lock { overflow: hidden !important; }
 .psu-ct__deco--leaf, .psu-ct__deco--leaf path { stroke: none; }
 .psu-ct__deco--leaf path:last-child { stroke: #2f4a2f; fill: none; }
 
-/* ---------- layout ---------- */
 .psu-ct__wrap {
   position: relative; z-index: 1;
   display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
@@ -3758,7 +3098,6 @@ body.psu-gx-lock { overflow: hidden !important; }
   width: min(calc(100% - 64px), 1240px); margin-inline: auto;
 }
 
-/* ---------- left ---------- */
 .psu-ct__kicker {
   display: flex; align-items: center; gap: .9rem; margin: 0 0 .6rem;
   color: #6b7a70; font-size: .78rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase;
@@ -3789,7 +3128,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 }
 .psu-ct__map iframe { display: block; width: 100%; height: 270px; border: 0; }
 
-/* ---------- right card ---------- */
 .psu-ct__card {
   position: relative; overflow: hidden;
   padding: clamp(1.8rem, 3.6vw, 3.4rem) clamp(1.6rem, 3.6vw, 3.4rem) clamp(2rem, 3.6vw, 3.2rem);
@@ -3825,7 +3163,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-ct__form input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .psu-ct__form input[type=number] {-moz-appearance: textfield; }
 
-/* boxed select + date */
 .psu-ct__box {
   position: relative; display: flex; align-items: center; gap: .7rem; min-height: 54px; padding: 0 1rem;
   border: 1px solid rgba(255, 255, 255, .5); border-radius: 10px; background: rgba(255, 255, 255, .02);
@@ -3845,7 +3182,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-ct__field.is-error .psu-ct__line,
 .psu-ct__field.is-error .psu-ct__box { border-color: #f0a79a; }
 
-/* button */
 .psu-ct__btn {
   display: inline-flex; align-items: center; gap: .8rem; margin-top: 2.4rem; padding: 1.15rem 2rem;
   border: 0; border-radius: 4px; background: var(--ct-gold2); color: #fff; cursor: pointer;
@@ -3859,7 +3195,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-ct__btn:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 .psu-ct__status { min-height: 1.4em; margin: 1rem 0 0; color: #e8d9b4; font-size: .85rem; }
 
-/* floating whatsapp */
 .psu-ct__fab {
   position: fixed; right: 1.4rem; bottom: 1.4rem; z-index: 9990; display: grid; place-items: center;
   width: 60px; height: 60px; border-radius: 50%; background: #25b05d; color: #fff;
@@ -3868,7 +3203,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-ct__fab svg { width: 32px; height: 32px; stroke-width: 1.7; }
 .psu-ct__fab:hover { transform: scale(1.08); }
 
-/* ---------- responsive ---------- */
 @media (max-width: 1000px) {
   .psu-ct__wrap { grid-template-columns: 1fr; gap: 3rem; }
   .psu-ct__deco--curve { opacity: .6; }
@@ -3892,14 +3226,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   margin-top: 15px;
 }
 
-
-
-
-
-/* =====================================================
-   AYURVEDA & PANCHAKARMA SECTION
-   Prefix: ay-  (baaki CSS se conflict nahi hoga)
-   ===================================================== */
 .ay {
   --ay-bg: #fbf6ee;
   --ay-ink: #0f2f29;
@@ -3920,13 +3246,11 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .ay, .ay * { box-sizing: border-box; }
 .ay__wrap { position: relative; z-index: 2; width: min(calc(100% - 56px), 1100px); margin-inline: auto; }
 
-/* ---------- decorations ---------- */
 .ay__deco { position: absolute; z-index: 1; pointer-events: none; }
 .ay__leaves-tl { top: -30px; left: -40px; width: clamp(100px, 13vw, 190px); transform-origin: top left; animation: aySway 9s ease-in-out infinite alternate; }
 .ay__leaves-br { right: -30px; bottom: -20px; width: clamp(80px, 9vw, 140px); transform-origin: bottom right; animation: aySway 10s ease-in-out infinite alternate-reverse; }
 .ay__moon { top: -60px; right: -90px; width: clamp(160px, 18vw, 280px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 40% 40%, rgba(244,229,226,.9), rgba(244,229,226,0) 70%); }
 
-/* ---------- heading ---------- */
 .ay__head { text-align: center; }
 .ay__lotus { display: block; width: 70px; margin: 0 auto 4px; }
 .ay__kicker {
@@ -3938,7 +3262,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .ay__title em { display: block; color: var(--ay-violet); font-style: italic; }
 .ay__lead { max-width: 620px; margin: 1rem auto 0; color: #44504b; font-size: .85rem; line-height: 1.7; }
 
-/* ---------- filter chips ---------- */
 .ay__filters { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: 1.6rem 0 0; }
 .ay__chip {
   appearance: none; margin: 0; cursor: pointer;
@@ -3951,10 +3274,8 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .ay__chip.is-active { background: var(--ay-green); border-color: var(--ay-green); color: #fff; }
 .ay__chip:focus-visible { outline: 2px solid var(--ay-violet); outline-offset: 3px; }
 
-/* ---------- grid ---------- */
 .ay__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.9rem; }
 
-/* ---------- card ---------- */
 .ay-card {
   position: relative; display: grid; grid-template-columns: 60% 1fr; min-height: 230px; overflow: hidden;
   border: 1px solid var(--ay-line); border-radius: 12px;
@@ -3969,7 +3290,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 }
 .ay-card__leaf { position: absolute; top: 12px; right: 10px; width: 46px; opacity: .55; pointer-events: none; transition: rotate .8s var(--ay-ease); }
 
-/* photo with the S-curve edge */
 .ay-card__photo { position: relative; overflow: hidden; margin: -1px 0 -1px -1px; clip-path: url(#ayCurve); background: linear-gradient(160deg, #e8e8d3, #f3e3e6); }
 .ay-card__photo img { display: block; width: 100%; height: 100%; object-fit: cover; transition: scale 1.2s var(--ay-ease); }
 .ay-card__photo--art { display: grid; place-items: center; color: #6e3d68; }
@@ -3977,7 +3297,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 
 .ay-card__body { position: relative; z-index: 1; display: flex; flex-direction: column; padding: 1.2rem 1rem 1.1rem .1rem; }
 
-/* round icon */
 .ay-card__icon { display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: .5rem; border-radius: 50%; transition: scale .4s var(--ay-ease), rotate .6s var(--ay-ease); }
 .ay-card__icon svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .ay-card__icon--1 { background: #f0e4d2; color: #3d4a45; }
@@ -4006,14 +3325,12 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .ay-card:hover .ay-card__pill svg { translate: 4px 0; }
 }
 
-/* ---------- footer ---------- */
 .ay__foot { display: flex; flex-direction: column; align-items: center; gap: .5rem; margin-top: 1.8rem; color: #3f5a50; font-size: .68rem; letter-spacing: .3em; text-transform: uppercase; text-align: center; }
 .ay__foot span { display: flex; align-items: center; gap: 1.2rem; }
 .ay__foot span::before, .ay__foot span::after { content: ""; width: clamp(30px, 8vw, 110px); height: 1px; background: #bcb7a4; }
 .ay__foot svg { width: 70px; }
 .ay__note { max-width: 720px; margin: 1.2rem auto 0; color: #6b7a70; font-size: .72rem; line-height: 1.7; text-align: center; }
 
-/* ---------- responsive ---------- */
 @media (max-width: 1100px) { .ay__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) {
   .ay__wrap { width: calc(100% - 28px); }
@@ -4024,7 +3341,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .ay__chip { flex: none; }
 }
 
-/* ---------- scroll animation (sirf JS chalne par) ---------- */
 .ay-js .ay__head > *, .ay-js .ay__filters, .ay-js .ay-card, .ay-js .ay__foot { opacity: 0; }
 .ay__head.is-in > * { opacity: 1; animation: ayUp .9s var(--ay-ease) backwards; }
 .ay__head.is-in > :nth-child(2) { animation-delay: .1s; }
@@ -4044,10 +3360,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .ay-js .ay__head > *, .ay-js .ay__filters, .ay-js .ay-card, .ay-js .ay__foot { opacity: 1; }
 }
 
-
-
-
-/* ===== WhatsApp floating icon ===== */
 .psu-complete-page .psu-floating-actions {
   position: fixed;
   right: 1.2rem;
@@ -4084,8 +3396,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-wa { animation: none; }
 }
 
-
-/* ===== WhatsApp floating icon ===== */
 .psu-wa {
   position: fixed;
   right: 1.2rem;
@@ -4120,7 +3430,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-wa { animation: none; }
 }
 
-/* ===== WhatsApp icon: har page par (purane WA button ko asli icon banata hai) ===== */
 .psu-floating-actions {
   display: flex !important;
   position: fixed !important;
@@ -4151,7 +3460,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   animation: psuWaPulse 2.4s ease-out infinite;
 }
 
-/* purana "WA" text hatao */
 .psu-floating-actions .psu-whatsapp::after,
 .psu-whatsapp::after,
 .psu-whatsapp::before { content: none !important; display: none !important; }
@@ -4167,18 +3475,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   }
 }
 
-
-
-
-
-
-
-/* =====================================================================
-   HEADER + LOGO (FINAL, COMPLETE)
-   Logo har screen par sirf top-left mein, content jitni width ka box
-   ===================================================================== */
-
-/* ---------- Header: hero ke upar ---------- */
 .psu-complete-page .psu-global-header {
   position: absolute !important;
   top: 0;
@@ -4196,7 +3492,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 }
 .psu-complete-page .psu-announcement { display: none; }
 
-/* ---------- Header layout: logo | nav | button ---------- */
 .psu-complete-page .psu-header-inner {
   position: relative;
   z-index: 2;
@@ -4211,7 +3506,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   border: 0;
 }
 
-/* ---------- Logo box (white badge) ---------- */
 .psu-complete-page .psu-global-header .psu-brand {
   justify-self: start !important;
   align-self: start !important;
@@ -4227,11 +3521,10 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   box-shadow: 0 8px 24px rgba(0, 0, 0, .18) !important;
 }
 
-/* ---------- Logo image ---------- */
 .psu-complete-page .psu-global-header .psu-brand__logo {
   display: block !important;
-  width: 230px !important;          /* width yahan se badlo */
-  height: 78px !important;          /* height yahan se badlo (ratio ~3:1) */
+  width: 230px !important;
+  height: 78px !important;
   max-width: none !important;
   min-height: 0 !important;
   object-fit: cover !important;
@@ -4240,7 +3533,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   box-shadow: none !important;
 }
 
-/* ---------- Navbar ---------- */
 .psu-complete-page .psu-nav { justify-self: center; }
 .psu-complete-page .psu-nav ul {
   display: flex;
@@ -4271,7 +3563,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-nav a:hover::after,
 .psu-complete-page .psu-nav a[aria-current="page"]::after { transform: scaleX(1); }
 
-/* ---------- Book now button ---------- */
 .psu-complete-page .psu-header-inner > .psu-btn {
   min-height: 48px;
   padding: .85rem 1.6rem;
@@ -4281,7 +3572,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   color: #14372b !important;
 }
 
-/* ---------- Mobile menu button + panel ---------- */
 .psu-complete-page .psu-menu-button {
   display: none;
   color: #fff;
@@ -4297,7 +3587,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   border-color: rgba(22, 63, 53, .14);
 }
 
-/* ---------- Footer logo ---------- */
 .psu-complete-page .psu-global-footer .psu-brand {
   display: inline-flex !important;
   width: fit-content !important;
@@ -4316,7 +3605,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   filter: none !important;
 }
 
-/* ---------- Tablet ---------- */
 @media (max-width: 1080px) {
   .psu-complete-page .psu-nav { display: none; }
   .psu-complete-page .psu-header-inner {
@@ -4327,13 +3615,12 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-global-header .psu-brand__logo { width: 190px !important; height: 64px !important; }
 }
 
-/* ---------- Mobile ---------- */
 @media (max-width: 800px) {
   .psu-complete-page .psu-header-inner {
     width: calc(100% - 28px) !important;
     padding-top: 10px !important;
     min-height: 76px !important;
-    grid-template-columns: auto 1fr !important;   /* logo | menu */
+    grid-template-columns: auto 1fr !important;
     gap: .8rem !important;
   }
   .psu-complete-page .psu-header-inner > .psu-btn { display: none; }
@@ -4346,18 +3633,9 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-global-footer .psu-brand__logo { width: 190px !important; height: 65px !important; }
 }
 
-/* ---------- Small mobile ---------- */
 @media (max-width: 480px) {
   .psu-complete-page .psu-global-header .psu-brand__logo { width: 112px !important; height: 38px !important; }
 }
-
-
-
-
-
-/* =====================================================================
-   NAVBAR: translucent light pearl glass + bada logo
-   ===================================================================== */
 
 .psu-complete-page .psu-global-header {
   position: fixed !important;
@@ -4366,7 +3644,7 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   right: 0 !important;
   width: auto !important;
   z-index: 99999 !important;
-  background: rgba(255, 251, 242, .62) !important;          /* translucent pearl */
+  background: rgba(255, 251, 242, .62) !important;
   backdrop-filter: blur(18px) saturate(1.4) !important;
   -webkit-backdrop-filter: blur(18px) saturate(1.4) !important;
   border-bottom: 1px solid rgba(201, 161, 90, .45) !important;
@@ -4383,13 +3661,11 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   pointer-events: none;
 }
 
-/* scroll par thoda zyada solid, taaki content ke upar bhi logo clear rahe */
 .psu-complete-page .psu-global-header.is-scrolled {
   background: rgba(255, 251, 242, .86) !important;
   box-shadow: 0 10px 34px rgba(15, 48, 40, .2) !important;
 }
 
-/* ---------- Layout ---------- */
 .psu-complete-page .psu-header-inner {
   width: min(calc(100% - 64px), 1400px) !important;
   min-height: 112px !important;
@@ -4401,7 +3677,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   align-items: center;
 }
 
-/* ---------- Logo: bada ---------- */
 .psu-complete-page .psu-global-header .psu-brand {
   justify-self: start !important;
   align-self: center !important;
@@ -4415,13 +3690,12 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-global-header .psu-brand__logo {
   display: block !important;
   width: auto !important;
-  height: 98px !important;          /* size yahan se badlo (90 - 120) */
+  height: 98px !important;
   max-width: none !important;
   object-fit: contain !important;
   filter: none !important;
 }
 
-/* ---------- Nav links: dark green ---------- */
 .psu-complete-page .psu-nav { justify-self: center; }
 .psu-complete-page .psu-nav a {
   color: #163f35 !important;
@@ -4435,7 +3709,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-nav a:hover,
 .psu-complete-page .psu-nav a[aria-current="page"] { color: #8b5ca2 !important; }
 
-/* ---------- Book now ---------- */
 .psu-complete-page .psu-header-inner > .psu-btn {
   background: #163f35 !important;
   color: #fff !important;
@@ -4446,7 +3719,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 }
 .psu-complete-page .psu-header-inner > .psu-btn:hover { background: #8b5ca2 !important; }
 
-/* ---------- Mobile menu ---------- */
 .psu-complete-page .psu-menu-button { color: #163f35 !important; }
 .psu-complete-page .psu-mobile-menu {
   background: rgba(255, 251, 242, .96) !important;
@@ -4459,10 +3731,8 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   border-color: rgba(22, 63, 53, .14) !important;
 }
 
-/* ---------- Hero navbar ke neeche se ---------- */
 .psu-complete-page .psu-hero { padding-top: 112px; }
 
-/* ---------- Footer logo (dark footer par halka pearl patch) ---------- */
 .psu-complete-page .psu-global-footer .psu-brand {
   width: fit-content !important;
   padding: 6px 14px !important;
@@ -4475,7 +3745,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   object-fit: contain !important;
 }
 
-/* ---------- Tablet ---------- */
 @media (max-width: 1080px) {
   .psu-complete-page .psu-nav { display: none; }
   .psu-complete-page .psu-menu-button { display: block; }
@@ -4484,7 +3753,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-hero { padding-top: 96px; }
 }
 
-/* ---------- Mobile ---------- */
 @media (max-width: 800px) {
   .psu-complete-page .psu-header-inner {
     width: calc(100% - 28px) !important;
@@ -4499,12 +3767,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-global-header .psu-brand__logo { height: 54px !important; }
 }
 
-
-/* =====================================================================
-   LOGO: bada + zyada visible, navbar padding hata di
-   ===================================================================== */
-
-/* navbar ki padding/height kam, taaki logo ko jagah mile */
 .psu-complete-page .psu-header-inner {
   width: min(calc(100% - 40px), 1440px) !important;
   min-height: 100px !important;
@@ -4512,24 +3774,21 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   gap: 2rem;
 }
 
-/* logo bada */
 .psu-complete-page .psu-global-header .psu-brand {
-  margin: -14px 0 -14px -6px !important;   /* PNG ki khali upar-neeche jagah cancel */
+  margin: -14px 0 -14px -6px !important;
   padding: 0 !important;
 }
 .psu-complete-page .psu-global-header .psu-brand__logo {
-  height: 150px !important;                /* size yahan se badlo (130 - 180) */
+  height: 150px !important;
   width: auto !important;
   max-width: none !important;
   object-fit: contain !important;
-  /* halka white glow, taaki logo navbar par ubhre */
   filter:
     drop-shadow(0 0 1px rgba(255, 255, 255, 1))
     drop-shadow(0 0 6px rgba(255, 255, 255, .9))
     drop-shadow(0 0 14px rgba(255, 255, 255, .6)) !important;
 }
 
-/* navbar thoda zyada light, taaki logo ke colors clear dikhein */
 .psu-complete-page .psu-global-header {
   background: rgba(255, 252, 245, .74) !important;
 }
@@ -4537,10 +3796,8 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   background: rgba(255, 252, 245, .92) !important;
 }
 
-/* hero navbar ke neeche se */
 .psu-complete-page .psu-hero { padding-top: 100px; }
 
-/* ---------- Tablet ---------- */
 @media (max-width: 1080px) {
   .psu-complete-page .psu-header-inner { min-height: 88px !important; }
   .psu-complete-page .psu-global-header .psu-brand { margin: -10px 0 -10px -4px !important; }
@@ -4548,7 +3805,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-hero { padding-top: 88px; }
 }
 
-/* ---------- Mobile ---------- */
 @media (max-width: 800px) {
   .psu-complete-page .psu-header-inner { min-height: 76px !important; width: calc(100% - 24px) !important; }
   .psu-complete-page .psu-global-header .psu-brand { margin: -8px 0 -8px -4px !important; }
@@ -4559,13 +3815,8 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-global-header .psu-brand__logo { height: 80px !important; }
 }
 
-
-/* =====================================================================
-   NAVBAR: height kam
-   ===================================================================== */
-
 .psu-complete-page .psu-header-inner {
-  min-height: 78px !important;       /* pehle 100px */
+  min-height: 78px !important;
   padding: 0 !important;
 }
 
@@ -4574,13 +3825,11 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 }
 
 .psu-complete-page .psu-global-header .psu-brand__logo {
-  height: 118px !important;          /* pehle 150px */
+  height: 118px !important;
 }
 
-/* hero navbar ke neeche se */
 .psu-complete-page .psu-hero { padding-top: 78px; }
 
-/* ---------- Tablet ---------- */
 @media (max-width: 1080px) {
   .psu-complete-page .psu-header-inner { min-height: 70px !important; }
   .psu-complete-page .psu-global-header .psu-brand { margin: -10px 0 -10px -4px !important; }
@@ -4588,7 +3837,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-hero { padding-top: 70px; }
 }
 
-/* ---------- Mobile ---------- */
 @media (max-width: 800px) {
   .psu-complete-page .psu-header-inner { min-height: 62px !important; }
   .psu-complete-page .psu-global-header .psu-brand { margin: -8px 0 -8px -4px !important; }
@@ -4599,19 +3847,17 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-complete-page .psu-global-header .psu-brand__logo { height: 68px !important; }
 }
 
-/* ===== Logo ko left se 10px right shift ===== */
 .psu-complete-page .psu-global-header .psu-brand {
-  margin-left: 4px !important;   /* pehle -6px tha, ab 10px right */
+  margin-left: 4px !important;
 }
 
 @media (max-width: 1080px) {
-  .psu-complete-page .psu-global-header .psu-brand { margin-left: 6px !important; }  /* pehle -4px */
+  .psu-complete-page .psu-global-header .psu-brand { margin-left: 6px !important; }
 }
 @media (max-width: 800px) {
-  .psu-complete-page .psu-global-header .psu-brand { margin-left: 6px !important; }  /* pehle -4px */
+  .psu-complete-page .psu-global-header .psu-brand { margin-left: 6px !important; }
 }
 
-/* Fix: dark sections that fall on an "even" position were turned cream with white text */
 .psu-complete-page .psu-section.psu-section--dark { color:#fff; background: linear-gradient(90deg, rgba(10,43,34,.93), rgba(10,43,34,.63)), url("../images/therapy-room.webp") center/cover var(--psu-forest); }
 .psu-complete-page .psu-section.psu-section--dark .psu-lead { color: rgba(255,255,255,.8); }
 .psu-complete-page .psu-stay-card__content > span,
@@ -4624,7 +3870,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-section.psu-section--dark .psu-h2 em i { color:#e0c2ee !important; }
 .psu-complete-page .psu-section.psu-section--dark .psu-kicker { color:#efd49c; }
 
-/* Stays section: light cream background (as before) with dark, readable text; cards stay dark green */
 .psu-complete-page .psu-section.psu-stays { background:#f8f4e9; color:#173d31; }
 .psu-complete-page .psu-section.psu-stays .psu-kicker { color:#8b5ca2; }
 .psu-complete-page .psu-section.psu-stays .psu-h2,
@@ -4636,7 +3881,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-section.psu-stays .psu-btn--dark { background:#173d31; color:#fff !important; }
 .psu-complete-page .psu-section.psu-stays .psu-btn--dark:hover { background:#8b5ca2; }
 
-/* Spacing: gap between text and the button below it */
 .psu-complete-page p + .psu-btn,
 .psu-complete-page .psu-lead + .psu-btn,
 .psu-complete-page .psu-body + .psu-btn,
@@ -4644,17 +3888,14 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-lead + button.psu-btn { margin-top: 26px; }
 .psu-complete-page .psu-home-gallery__head .psu-lead { margin-bottom: 0; }
 
-/* Journal (home): a little more height and breathing room */
 .psu-complete-page .psu-journal-home { padding-top: clamp(90px,10vw,150px); padding-bottom: clamp(110px,12vw,170px); }
 .psu-complete-page .psu-journal-head { margin-bottom: 64px; }
 .psu-complete-page .psu-journal-grid { row-gap: 40px; }
 .psu-complete-page .psu-journal-grid article { padding-bottom: 22px; }
 
-/* Testimonials (home): "Read more" link was white on cream */
 .psu-complete-page .psu-testimonial-home .psu-text-link { color: #173d31; border-bottom-color: #8b5ca2; }
 .psu-complete-page .psu-testimonial-home .psu-text-link:hover { color: #8b5ca2; }
 
-/* Journal cards (home): full card block with text padding; image stays inside on hover */
 .psu-complete-page .psu-journal-grid { align-items: stretch; }
 .psu-complete-page .psu-journal-grid article {
   display: flex; flex-direction: column; overflow: hidden; border-radius: 16px;
@@ -4667,3 +3908,10 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
 .psu-complete-page .psu-journal-grid article > h3 { flex: 1; margin: 8px 0 16px; }
 .psu-complete-page .psu-journal-grid article > a { align-self: flex-start; margin-left: 26px; }
 .psu-complete-page .psu-journal-grid article:hover { transform: translateY(-8px); box-shadow: 0 24px 50px rgba(15,48,40,.16); }
+
+.psu-book-form .psu-form-status { margin: .9rem 0 0; color: #4d5a54; font-size: .85rem; line-height: 1.5; }
+.psu-book-form .psu-form-status[data-state="success"] { color: #2d6a4f; font-weight: 600; }
+.psu-book-form .psu-form-status[data-state="error"] { color: #b3402a; font-weight: 600; }
+.psu-form .psu-form-status[data-state="success"], .psu-ct__status[data-state="success"] { color: #bfe6c9; }
+.psu-form .psu-form-status[data-state="error"], .psu-ct__status[data-state="error"] { color: #ffb8a6; }
+.psu-book-submit:disabled, .psu-ct__btn:disabled, .psu-form button[type="submit"]:disabled { opacity: .6; cursor: wait; }
