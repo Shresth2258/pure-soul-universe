@@ -28,8 +28,9 @@ Live website: https://shresth2258.github.io/pure-soul-universe/
 Repository: https://github.com/Shresth2258/pure-soul-universe
 The site is published from the main branch root. Keep all pages and the assets
 folder together when updating the repository so image and script paths work.
+Only images that are actually used by the pages are kept in assets/images.
 The optimized JPEG copies in assets/images/optimized are used for faster page
-loads. Original image files remain in assets/images and should not be removed.
+loads.
 
 HOW TO UPLOAD TO HOSTINGER
 -------------------------
@@ -43,8 +44,10 @@ IMPORTANT
 ---------
 • Do not upload this package through WordPress.
 • Keep assets/css, assets/js and assets/images in their current folders.
-• Booking, enquiry and feedback forms open a prepared WhatsApp message.
-• The newsletter form opens the visitor's email app.
+• Booking, contact enquiry, reflection and newsletter forms are emailed via
+  Web3Forms (access key is set in assets/js/site.js, WEB3FORMS_ACCESS_KEY).
+  Mails go to the email registered with that key. Replying to the mail
+  replies directly to the person who filled the form (when they gave an email).
 • Google Maps currently uses the complete postal address. Replace its URL with
   the exact shared Google Maps pin when supplied.
 • Direct online payment still requires a live Razorpay/Stripe/payment link.
